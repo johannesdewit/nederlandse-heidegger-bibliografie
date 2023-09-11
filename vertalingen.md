@@ -1,0 +1,42 @@
+# Nederlandse vertalingen van Martin Heideggers werk
+
+## Gesorteerd op uitgeverij en reeks
+
+- _Heidegger-reeks_, (Budel: Damon)
+  - _De landweg_, vert. Jacob van Sluis (Budel: Damon, 2001), ISBN 9055731390; 32 blz.
+  - _Over het wezen van de grond / Over het wezen van de waarheid_, vert. Harald van Veghel (Budel: Damon, 2001), 96 blz.
+  - _Het begrip tijd / Fenomenologie en theologie_, vert. Jacob van Sluis en Alfred Denker (Budel: Damon, 2001), 69 blz.
+  - _De grondvraag van de metafysica_, vert. Cornelis Verhoeven (Budel: Damon, 2003), 214 blz.
+  - _Over het humanisme_, vert. Chris Bremmers (Budel: Damon, 2017), 164 blz.
+  - _Wat is metafysica?_, vert. Vincent Blok (Budel: Damon, 2018), 84 blz.
+- _Nederlandse Heidegger Bibliotheek_, (Tielt: Lannoo)
+  - _Wat is metafysica?_, vert. M.S.G.K. van Nierop (Tielt: Lannoo, 1970), 183 blz.
+  - _Wat is dat, filosofie?_, (Tielt: Lannoo, 1970), 64 blz.
+  - _De techniek en de ommekeer_, vert. Harry Berghs (Tielt: Lannoo, 1973), 136 blz.
+  - _Brief over het "humanisme"_, (Tielt: Lannoo, 1973), 136 blz.
+  - _Gelatenheid_ (Tielt: Lannoo, 1979), 138 blz.
+  - _De tijd van het wereldbeeld_, vert. Harry Berghs (Tielt: Lannoo, 1983), 132 blz.
+- Sun, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
+  - _Zijn en tijd_ vert. Mark Wildschut (Nijmegen: Sun, 1998), 559 blz.
+  - _Inleiding in de metafysica_, vert. H.M. Berghs (Nijmegen: Sun, 1997), 239 blz.
+  - _Over denken, bouwen, wonen_, vert. H.M. Berghs (Nijmegen: Sun, 1991), 118 blz.
+- Vantilt, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
+  - _De vraag naar de techniek en de herkomst van de kunst_, vert. Mark Wildschut (Nijmegen: Vantilt, 2014).
+- Boom, Amsterdam
+  - _De oorsprong van het kunstwerk_, vert. Mark Wildschut en Chris Bremmers (Amsterdam: Boom, 1996), 96 blz.
+  - _Het beginsel van grond_, vert. Mark Wildschut (Amsterdam: Boom, 2020), 166 blz.
+  - _Identiteit en differentie (Tweetalige editie)_, vert. Samuel IJsseling (Amsterdam: Boom, 2001), 96 blz.
+- Klement, Kampen
+  - _Alleen nog een god kan ons redden: Der Spiegel in gesprek met Martin Heidegger_, vert. Paul Beers (Kampen: Klement, 2002), 67 blz.
+- Atlas, Amsterdam
+  - Hannah Arendt en Martin Heidegger, _Brieven en andere getuigenissen 1925 tot 1975_, vert. Mark Wildschut (Amsterdam: Atlas, 2004), 475 blz.
+- Bornmeer, Gorredijk
+  - _Hebel, de huisvriend_, vert. Jacob van Sluis, (Gorredijk: Bornmeer, 2009), 39 blz.
+- Ten Have, Kampen
+  - _'Mijn lieve zieltje!': Brieven van Martin Heidegger aan zijn vrouw Elfride 1915-1970_, vert. Karl van Klaveren (Kampen: Ten Have, 2007), 463 blz.
+- Picaron Editions, Amsterdam
+  - _Het einde van de filosofie en de opgave van het denken_, vert. Ellen Geerlings en Mark Wildschut (Amsterdam: Picaron Editions, 1988), 32 blz.
+- Universitaire Pers Leuven
+  - _De spreuk van Anaximander_, vert. G.H. Buijsen (Leuven: Universitaire Pers Leuven, 1997), 151 blz.
+- OASE
+  - _Bouwen, wonen, denken_, vert. Geert Hovingh (OASE, 1986), 27 blz.

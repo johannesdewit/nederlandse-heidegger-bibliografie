@@ -40,3 +40,6 @@
   - _De spreuk van Anaximander_, vert. G.H. Buijsen (Leuven: Universitaire Pers Leuven, 1997), 151 blz.
 - OASE
   - _Bouwen, wonen, denken_, vert. Geert Hovingh (OASE, 1986), 27 blz.
+- Tijdschrift Streven \[1947-1978\]
+  - _Martin Heidegger over Abraham a Santa Clara: Een voordracht van Heidegger, ingeleid en vertaald door Samuel IJsseling_, Streven, jaargang 20, nr. 8, 1966, pp. 743-753, [link](https://www.dbnl.org/tekst/_str005196601_01/_str005196601_01_0102.php)
+

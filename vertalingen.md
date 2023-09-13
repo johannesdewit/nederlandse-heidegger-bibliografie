@@ -42,4 +42,6 @@
   - _Bouwen, wonen, denken_, vert. Geert Hovingh (OASE, 1986), 27 blz.
 - Tijdschrift Streven \[1947-1978\]
   - _Martin Heidegger over Abraham a Santa Clara: Een voordracht van Heidegger, ingeleid en vertaald door Samuel IJsseling_, Streven, jaargang 20, nr. 8, 1966, pp. 743-753, [link](https://www.dbnl.org/tekst/_str005196601_01/_str005196601_01_0102.php)
+- \[Zonder uitgever\]
+  - _De veldweg_, regie Fred Eggen, vert. Harry Edens en Fred Eggen, online videoregistratie, 1996, https://develdweg.blogspot.com/, \[bezocht op 13 september 2023\].
 

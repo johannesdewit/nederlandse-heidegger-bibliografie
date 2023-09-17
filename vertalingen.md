@@ -9,17 +9,17 @@
   - _De grondvraag van de metafysica_, vert. Cornelis Verhoeven (Budel: Damon, 2003), 214 blz.
   - _Over het humanisme_, vert. Chris Bremmers (Budel: Damon, 2017), 164 blz.
   - _Wat is metafysica?_, vert. Vincent Blok (Budel: Damon, 2018), 84 blz.
-- _Nederlandse Heidegger Bibliotheek_, (Tielt: Lannoo)
+- _Nederlandse Heidegger-bibliotheek_, (Tielt: Lannoo)
   - _Wat is metafysica?_, vert. M.S.G.K. van Nierop (Tielt: Lannoo, 1970), 183 blz.
   - _Wat is dat, filosofie?_, (Tielt: Lannoo, 1970), 64 blz.
   - _De techniek en de ommekeer_, vert. Harry Berghs (Tielt: Lannoo, 1973), 136 blz.
   - _Brief over het "humanisme"_, (Tielt: Lannoo, 1973), 136 blz.
   - _Gelatenheid_ (Tielt: Lannoo, 1979), 138 blz.
   - _De tijd van het wereldbeeld_, vert. Harry Berghs (Tielt: Lannoo, 1983), 132 blz.
-- Sun, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
-  - _Zijn en tijd_ vert. Mark Wildschut (Nijmegen: Sun, 1998), 559 blz.
-  - _Inleiding in de metafysica_, vert. H.M. Berghs (Nijmegen: Sun, 1997), 239 blz.
-  - _Over denken, bouwen, wonen_, vert. H.M. Berghs (Nijmegen: Sun, 1991), 118 blz.
+- SUN, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
+  - _Zijn en tijd_ vert. Mark Wildschut (Nijmegen: SUN, 1998), 559 blz.
+  - _Inleiding in de metafysica_, vert. H.M. Berghs (Nijmegen: SUN, 1997), 239 blz.
+  - _Over denken, bouwen, wonen_, vert. H.M. Berghs (Nijmegen: SUN, 1991), 118 blz.
 - Vantilt, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
   - _De vraag naar de techniek en de herkomst van de kunst_, vert. Mark Wildschut (Nijmegen: Vantilt, 2014).
 - Boom, Amsterdam
@@ -41,7 +41,7 @@
 - OASE
   - _Bouwen, wonen, denken_, vert. Geert Hovingh (OASE, 1986), 27 blz.
 - Tijdschrift Streven \[1947-1978\]
-  - _Martin Heidegger over Abraham a Santa Clara: Een voordracht van Heidegger, ingeleid en vertaald door Samuel IJsseling_, Streven, jaargang 20, nr. 8, 1966, pp. 743-753, [link](https://www.dbnl.org/tekst/_str005196601_01/_str005196601_01_0102.php)
+  - _Martin Heidegger over Abraham a Santa Clara: Een voordracht van Heidegger, ingeleid en vertaald door Samuel IJsseling_, Streven, jaargang 20, nr. 8, 1967, pp. 743-753, [link](https://www.dbnl.org/tekst/_str005196601_01/_str005196601_01_0102.php)
 - \[Zonder uitgever\]
   - _De veldweg_, regie Fred Eggen, vert. Harry Edens en Fred Eggen, online videoregistratie, 1996, https://develdweg.blogspot.com/, \[bezocht op 13 september 2023\].
 

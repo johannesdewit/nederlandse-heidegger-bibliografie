@@ -24,7 +24,7 @@
   - _De vraag naar de techniek en de herkomst van de kunst_, vert. Mark Wildschut (Nijmegen: Vantilt, 2014).
 - Boom, Amsterdam
   - _De oorsprong van het kunstwerk_, vert. Mark Wildschut en Chris Bremmers (Amsterdam: Boom, 1996), 96 blz.
-  - _Het beginsel van grond_, vert. Mark Wildschut (Amsterdam: Boom, 2020), 166 blz.
+  - _Het beginsel van grond_, vert. Mark Wildschut (Amsterdam: Boom, 2009), 180 blz.
   - _Identiteit en differentie (Tweetalige editie)_, vert. Samuel IJsseling (Amsterdam: Boom, 2001), 96 blz.
 - Klement, Kampen
   - _Alleen nog een god kan ons redden: Der Spiegel in gesprek met Martin Heidegger_, vert. Paul Beers (Kampen: Klement, 2002), 67 blz.

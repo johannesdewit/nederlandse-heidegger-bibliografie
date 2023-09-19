@@ -4,7 +4,7 @@
 
 ## Zoterogroep
 
-Op dit moment is de Zoterogroep het hoofdbestand, <vertalingen.md> en <data.yaml> zijn slechts exports t.b.h.v. zichtbaarheid en als back-up van de Zoterogroep.
+Op dit moment is de Zoterogroep het hoofdbestand, [vertalingen.md](vertalingen.md) en [data.yaml](data.yaml) zijn slechts exports t.b.h.v. zichtbaarheid en als back-up van de Zoterogroep. Ik ben nog zoekende naar de beste werkwijze.
 
 <https://www.zotero.org/groups/5183113/nederlandse_heidegger-bibliografie>
 

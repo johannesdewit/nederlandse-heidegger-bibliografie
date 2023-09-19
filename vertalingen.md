@@ -1,47 +1,33 @@
 # Nederlandse vertalingen van Martin Heideggers werk
 
-## Gesorteerd op uitgeverij en reeks
+_Deze lijst is een uitdraai van de Zotero-bibliotheek, in Chicago-stijl vanwege het ontbreken van een Nederlandse MHRA-stijl in Zotero._
 
-- _Heidegger-reeks_, (Budel: Damon)
-  - _De landweg_, vert. Jacob van Sluis (Budel: Damon, 2001), ISBN 9055731390; 32 blz.
-  - _Over het wezen van de grond / Over het wezen van de waarheid_, vert. Harald van Veghel (Budel: Damon, 2001), 96 blz.
-  - _Het begrip tijd / Fenomenologie en theologie_, vert. Jacob van Sluis en Alfred Denker (Budel: Damon, 2001), 69 blz.
-  - _De grondvraag van de metafysica_, vert. Cornelis Verhoeven (Budel: Damon, 2003), 214 blz.
-  - _Over het humanisme_, vert. Chris Bremmers (Budel: Damon, 2017), 164 blz.
-  - _Wat is metafysica?_, vert. Vincent Blok (Budel: Damon, 2018), 84 blz.
-- _Nederlandse Heidegger-bibliotheek_, (Tielt: Lannoo)
-  - _Wat is metafysica?_, vert. M.S.G.K. van Nierop (Tielt: Lannoo, 1970), 183 blz.
-  - _Wat is dat, filosofie?_, (Tielt: Lannoo, 1970), 64 blz.
-  - _De techniek en de ommekeer_, vert. Harry Berghs (Tielt: Lannoo, 1973), 136 blz.
-  - _Brief over het "humanisme"_, (Tielt: Lannoo, 1973), 136 blz.
-  - _Gelatenheid_ (Tielt: Lannoo, 1979), 138 blz.
-  - _De tijd van het wereldbeeld_, vert. Harry Berghs (Tielt: Lannoo, 1983), 132 blz.
-- SUN, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
-  - _Zijn en tijd_ vert. Mark Wildschut (Nijmegen: SUN, 1998), 559 blz.
-  - _Inleiding in de metafysica_, vert. H.M. Berghs (Nijmegen: SUN, 1997), 239 blz.
-  - _Over denken, bouwen, wonen_, vert. H.M. Berghs (Nijmegen: SUN, 1991), 118 blz.
-- Vantilt, Nijmegen, tegenwoordig uitgegeven door Boom, Amsterdam.
-  - _De vraag naar de techniek en de herkomst van de kunst_, vert. Mark Wildschut (Nijmegen: Vantilt, 2014).
-- Boom, Amsterdam
-  - _De oorsprong van het kunstwerk_, vert. Mark Wildschut en Chris Bremmers (Amsterdam: Boom, 1996), 96 blz.
-  - _Het beginsel van grond_, vert. Mark Wildschut (Amsterdam: Boom, 2009), 180 blz.
-  - _Identiteit en differentie (Tweetalige editie)_, vert. Samuel IJsseling (Amsterdam: Boom, 2001), 96 blz.
-- Klement, Kampen
-  - _Alleen nog een god kan ons redden: Der Spiegel in gesprek met Martin Heidegger_, vert. Paul Beers (Kampen: Klement, 2002), 67 blz.
-- Atlas, Amsterdam
-  - Hannah Arendt en Martin Heidegger, _Brieven en andere getuigenissen 1925 tot 1975_, vert. Mark Wildschut (Amsterdam: Atlas, 2004), 475 blz.
-- Bornmeer, Gorredijk
-  - _Hebel, de huisvriend_, vert. Jacob van Sluis, (Gorredijk: Bornmeer, 2009), 39 blz.
-- Ten Have, Kampen
-  - _'Mijn lieve zieltje!': Brieven van Martin Heidegger aan zijn vrouw Elfride 1915-1970_, vert. Karl van Klaveren (Kampen: Ten Have, 2007), 463 blz.
-- Picaron Editions, Amsterdam
-  - _Het einde van de filosofie en de opgave van het denken_, vert. Ellen Geerlings en Mark Wildschut (Amsterdam: Picaron Editions, 1988), 32 blz.
-- Universitaire Pers Leuven
-  - _De spreuk van Anaximander_, vert. G.H. Buijsen (Leuven: Universitaire Pers Leuven, 1997), 151 blz.
-- OASE
-  - _Bouwen, wonen, denken_, vert. Geert Hovingh (OASE, 1986), 27 blz.
-- Tijdschrift Streven \[1947-1978\]
-  - _Martin Heidegger over Abraham a Santa Clara: Een voordracht van Heidegger, ingeleid en vertaald door Samuel IJsseling_, Streven, jaargang 20, nr. 8, 1967, pp. 743-753, [link](https://www.dbnl.org/tekst/_str005196601_01/_str005196601_01_0102.php)
-- \[Zonder uitgever\]
-  - _De veldweg_, regie Fred Eggen, vert. Harry Edens en Fred Eggen, online videoregistratie, 1996, https://develdweg.blogspot.com/, \[bezocht op 13 september 2023\].
-
+Arendt, Hannah, en Martin Heidegger. Brieven en andere getuigenissen 1925 tot 1975. Onder redactie van Ursula Ludz. Vertaald door Mark Wildschut. Amsterdam: Atlas, 2004.
+De veldweg, 1996. https://develdweg.blogspot.com/.
+Heidegger, Martin. Alleen nog een god kan ons redden: Der Spiegel in gesprek met Martin Heidegger. Vertaald door Paul Beers. Kampen: Klement, 2002.
+———. ‘Bouwen, wonen, denken’. Vertaald door Geert Hovingh. OASE 12 (1986).
+———. Brief over het “humanisme”. Vertaald door G. H. Buijssen. Nederlandse Heidegger-bibliotheek. Tielt: Lannoo, 1973.
+———. De grondvraag van de metafysica. Vertaald door Cornelis Verhoeven. Heidegger-reeks. Budel: Damon, 2003.
+———. De landweg. Vertaald door Jacob van Sluis. Heidegger-reeks. Budel: Damon, 2001.
+———. De oorsprong van het kunstwerk. Vertaald door Mark Wildschut en Chris Bremmers. Amsterdam: Boom, 1996.
+———. De spreuk van Anaximander. Vertaald door G.H. Buijsen. Leuven: Universitaire Pers Leuven, 1997.
+———. De techniek en de ommekeer. Vertaald door Harry Berghs. Nederlandse Heidegger-bibliotheek. Tielt: Lannoo, 1973.
+———. De tijd van het wereldbeeld. Vertaald door H. M. Berghs. Nederlandse Heidegger-bibliotheek. Tielt: Lannoo, 1983.
+———. De veldweg van Martin Heidegger. Vertaald door Bart Rensink. Spiraalband. Amsterdam: Sjolsea, 2004.
+———. De vraag naar de techniek. Vertaald door Mark Wildschut. Nijmegen: Vantilt, 2014.
+———. Gelatenheid. Vertaald door Etienne Van Doosselaere. Nederlandse Heidegger-bibliotheek. Tielt: Lannoo, 1979.
+———. Hebel, de huisvriend. Vertaald door Jacob van Sluis. Gorredijk: Bornmeer, 2009.
+———. Het beginsel van grond. Vertaald door Mark Wildschut. Amsterdam: Boom, 2009.
+———. Het begrip van de tijd / Fenomenologie en theologie. Vertaald door Jacob van Sluis en Alfred Denker. Heidegger-reeks. Budel: Damon, 2001.
+———. Het einde van de filosofie en de opgave van het denken. Vertaald door Ellen Geerlings en Mark Wildschut. Amsterdam: Picaron Editions, 1988.
+———. Identiteit en differentie. Vertaald door Samuel IJsseling. Tweetalige editie. Amsterdam: Boom, 2001.
+———. Inleiding in de metafysica. Vertaald door H. M. Berghs. Nijmegen: SUN, 1997.
+———. ‘Martin Heidegger over Abraham a Santa Clara: Een voordracht van Heidegger, ingeleid en vertaald door Samuel IJsseling’. Vertaald door Samuel IJsseling. Streven [1947-1978] 20, nr. 8 (1967): 743-53. https://www.dbnl.org/tekst/_str005196601_01/_str005196601_01_0102.php.
+———. ‘Mijn lieve zieltje!’: brieven van Martin Heidegger aan zijn vrouw Elfride 1915-1970. Onder redactie van Gertrud Heidegger. Vertaald door Karl van Klaveren. Kampen: Ten Have, 2007.
+———. Over denken, bouwen, wonen. Vertaald door H. M. Berghs. Nijmegen: SUN, 1991.
+———. Over het humanisme. Vertaald door Chris Johan Gerard Bremmers. Heidegger-reeks. Budel: Damon, 2017.
+———. Over het wezen van de grond / Over het wezen van de waarheid. Vertaald door Harald Axel van Veghel. Heidegger-reeks. Budel: Damon, 2001.
+———. Wat is dat, filosofie? Vertaald door G. H. Buijssen. Nederlandse Heidegger-bibliotheek. Tielt: Lannoo, 1970.
+———. Wat is metafysica? Vertaald door M. S. G. K. van Nierop. Nederlandse Heidegger-bibliotheek. Tielt: Lannoo, 1970.
+———. Wat is metafysica? Vertaald door Vincent Blok. Heidegger-reeks. Budel: Damon, 2018.
+———. Zijn en tijd. Vertaald door Mark Wildschut. Nijmegen: SUN, 1998.

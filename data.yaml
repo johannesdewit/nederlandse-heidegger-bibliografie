@@ -18,7 +18,6 @@ references:
   number-of-pages: '475'
   publisher: Atlas
   publisher-place: Amsterdam
-  source: K10plus ISBN
   title: Brieven en andere getuigenissen 1925 tot 1975
   translator:
     - family: Wildschut
@@ -39,8 +38,11 @@ references:
     - year: 1996
   language: dut
   note: |-
-    - Fred Eggen
-      - Harry Edens
+    - family: Eggen
+        given: Fred
+      - family: Edens
+        given: Harry
+  original-title: Der Feldweg
   performer:
     - family: Edens
       given: Harry
@@ -79,7 +81,7 @@ references:
   issued:
     - year: 1986
   language: dut
-  note: '#-of-pages: 27'
+  number-of-pages: '27'
   title: Bouwen, wonen, denken
   translator:
     - family: Hovingh
@@ -139,11 +141,10 @@ references:
   issued:
     - year: 1979
   language: dut
-  note: 'OCLC: 781180751'
   number-of-pages: '138'
+  original-title: Gelassenheit
   publisher: Lannoo
   publisher-place: Tielt
-  source: Open WorldCat
   title: Gelatenheid
   translator:
     - family: Van Doosselaere
@@ -185,7 +186,6 @@ references:
   number-of-pages: '39'
   publisher: Bornmeer
   publisher-place: Gorredijk
-  source: K10plus ISBN
   title: Hebel, de huisvriend
   translator:
     - family: Sluis
@@ -391,11 +391,9 @@ references:
   issued:
     - year: 2007
   language: dut
-  note: 'OCLC: 150305929'
   number-of-pages: '463'
   publisher: Ten Have
   publisher-place: Kampen
-  source: Open WorldCat
   title: >-
     'Mijn lieve zieltje!': brieven van Martin Heidegger aan zijn vrouw Elfride
     1915-1970
@@ -439,11 +437,9 @@ references:
   issued:
     - year: 1997
   language: dut
-  note: 'OCLC: 782316329'
   number-of-pages: '151'
   publisher: Universitaire Pers Leuven
   publisher-place: Leuven
-  source: Open WorldCat
   title: De spreuk van Anaximander
   translator:
     - family: Buijsen
@@ -503,22 +499,20 @@ references:
   issued:
     - year: 2004
   language: dut
-  note: 'OCLC: 66539754'
   number-of-pages: '13'
   publisher: Sjolsea
   publisher-place: Amsterdam
-  source: Open WorldCat
   title: De veldweg van Martin Heidegger
   translator:
     - family: Rensink
       given: Bart
   type: book
 
-- id: heideggerVraagNaarTechniek2014b
+- id: heideggerVraagNaarTechniek2014
   author:
     - family: Heidegger
       given: Martin
-  citation-key: heideggerVraagNaarTechniek2014b
+  citation-key: heideggerVraagNaarTechniek2014
   event-place: Nijmegen
   ISBN: 978-94-6004-148-8
   issued:
@@ -527,11 +521,32 @@ references:
   number-of-pages: '39'
   publisher: Vantilt
   publisher-place: Nijmegen
-  source: K10plus ISBN
   title: De vraag naar de techniek
   translator:
     - family: Wildschut
       given: Mark
+  type: book
+
+- id: heideggerWaarheidVrijheid1959
+  author:
+    - family: Heidegger
+      given: Martin
+  citation-key: heideggerWaarheidVrijheid1959
+  event-place: Rotterdam
+  issued:
+    - year: 1959
+  language: dut
+  note: >-
+    Een bewerking van Martin Heidegger's voordracht "Vom Wesen der Wahrheit",
+    1955/56
+  number-of-pages: '82'
+  original-title: Vom Wesen der Wahrheit
+  publisher: De Forel
+  publisher-place: Rotterdam
+  title: Waarheid en vrijheid
+  translator:
+    - family: Stallaert
+      given: Luud
   type: book
 
 - id: heideggerWatDatFilosofie1970
@@ -568,6 +583,7 @@ references:
     - year: 1970
   language: dut
   number-of-pages: '183'
+  original-title: Was ist Metaphysik?
   publisher: Lannoo
   publisher-place: Tielt
   title: Wat is metafysica?
@@ -589,6 +605,7 @@ references:
     - year: 2018
   language: dut
   number-of-pages: '84'
+  original-title: Was ist Metaphysik?
   publisher: Damon
   publisher-place: Budel
   title: Wat is metafysica?
@@ -607,6 +624,7 @@ references:
     - year: 1998
   language: dut
   number-of-pages: '559'
+  original-title: Sein und Zeit
   publisher: SUN
   publisher-place: Nijmegen
   title: Zijn en tijd

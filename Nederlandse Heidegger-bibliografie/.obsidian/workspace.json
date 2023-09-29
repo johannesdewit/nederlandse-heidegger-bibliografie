@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "d7fc3aca32d6d566",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a010700eaf140a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52a50fd79bdd3e59",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "739bc527406868f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1c93bea8875f517",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fef56286d92a41fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68ccf56b3312dc9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2eaba70ca84083f5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "35c70277cef575d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "229ea7fa772f0de7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdd322b8668f86df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fffed25caf9cba3f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f376d48a9980cc1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7042bb45818ad55f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "52a50fd79bdd3e59",
+  "lastOpenFiles": [
+    "@visserNietzscheHeideggerEen1989.md",
+    "@heideggerGelatenheid1979.md",
+    "@heideggerWatDatFilosofie1970.md",
+    "@heideggerTechniekOmmekeer1973.md",
+    "@heideggerWatMetafysica1970.md",
+    "@visserLukacsHeideggerEen1982.md",
+    "@oudemansHeideggersFormeelAanwijzende1988.md",
+    "@oudemansHeideggersFilosofieVan1985.md",
+    "@ijsselingHeideggerTijdZijn1976.md",
+    "@ijsselingHeideggerDenkenDanken1964.md",
+    "@ijsselingHeideggerDenkenDanken2017.md",
+    "@vandoosselaereAngstGelatenheidAls1975.md",
+    "@deboerHeideggersKritiekOp1978.md",
+    "@beerlingVanNietzscheTot1977.md",
+    "@duintjerVraagNaarHet1966.md",
+    "Untitled.canvas"
+  ]
+}

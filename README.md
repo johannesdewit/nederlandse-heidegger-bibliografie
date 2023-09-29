@@ -12,7 +12,7 @@ Op dit moment is de Zoterogroep het hoofdbestand, [vertalingen.md](vertalingen.m
 
 ### Vertalingen
 
-Naar mijn weten zijn alle uitgegeven Nederlandse vertalingen van Heideggers werken opgenomen. Kent u aanvullingen? Maak dan een issue aan bij deze vergaarplaats \[repository\] en/of meld je aan voor de Zotero groep.
+Naar mijn weten zijn alle uitgegeven Nederlandse vertalingen van Heideggers werken opgenomen. Kent u aanvullingen? Maak dan een issue aan bij deze repository en/of meld je aan voor de Zotero groep.
 
 ### Secundaire literatuur
 

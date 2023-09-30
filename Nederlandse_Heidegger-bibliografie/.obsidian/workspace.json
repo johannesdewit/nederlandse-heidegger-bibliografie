@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4a010700eaf140a7",
+        "id": "98f31139a4701fbb",
         "type": "tabs",
         "children": [
           {
-            "id": "52a50fd79bdd3e59",
+            "id": "ecf35fda7fbdcfb2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "@vasterlingWaarheidTijdBij1993.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "35c70277cef575d1",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "@vasterlingWaarheidTijdBij1993.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "@vasterlingWaarheidTijdBij1993.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "@vasterlingWaarheidTijdBij1993.md"
+              }
             }
           }
         ]
@@ -138,23 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52a50fd79bdd3e59",
+  "active": "ecf35fda7fbdcfb2",
   "lastOpenFiles": [
-    "@visserNietzscheHeideggerEen1989.md",
-    "@heideggerGelatenheid1979.md",
-    "@heideggerWatDatFilosofie1970.md",
-    "@heideggerTechniekOmmekeer1973.md",
-    "@heideggerWatMetafysica1970.md",
-    "@visserLukacsHeideggerEen1982.md",
-    "@oudemansHeideggersFormeelAanwijzende1988.md",
-    "@oudemansHeideggersFilosofieVan1985.md",
-    "@ijsselingHeideggerTijdZijn1976.md",
-    "@ijsselingHeideggerDenkenDanken1964.md",
-    "@ijsselingHeideggerDenkenDanken2017.md",
-    "@vandoosselaereAngstGelatenheidAls1975.md",
-    "@deboerHeideggersKritiekOp1978.md",
-    "@beerlingVanNietzscheTot1977.md",
+    "@bergerVanTheologieNaar1989.md",
+    "@deboerVanBrentanoTot1989.md",
+    "@deschutterHeideggerVraagNaar1986.md",
+    "@vedderErfgenamenVanToekomst1990.md",
+    "@vasterlingWaarheidTijdBij1993.md",
+    "@heideggerMartinHeideggerAbraham1967.md",
     "@duintjerVraagNaarHet1966.md",
+    "@vandewieleResDingBijdrage1962.md",
+    "@bakkerGeschiedenisVanHet1974.md",
+    "@beerlingModerneDoodsproblematiekEen1945.md",
+    "@kuypersVerhoudingTusschenTijd1932.md",
+    "@vanpeursenPhilosophieVanMartin1951.md",
+    "@roessinghGodsdienstwijsgerigeProblematiekHet1956.md",
+    "@vandewieleZijnswaarheidOnverborgenheidVergelijkende1964.md",
+    "@ijsselingDerridaHeidegger1986.md",
+    "@zuidemaPlaatsTheologieHet1955.md",
+    "@vankampenHeideggersDaseinMechanica2005.md",
+    "@heideggerZijnTijd1998.md",
+    "@verbruggeVerwaarlozingVanHet2001.md",
+    "@oudemansTechniekInformatiseringHet1997.md",
+    "@janssenperioHoeHelderHeidegger200.md",
+    "@vandijkHelderheidBegripFenomeen1997.md",
+    "@boerDenkenHetLicht1997.md",
+    "@bartelsGeschiedenisVanHet.md",
+    "@prinsEigentijdVermoedensGevat2009.md",
+    "@blokActualiteitTijdSein2007.md",
     "Untitled.canvas"
   ]
 }

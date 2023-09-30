@@ -11,12 +11,8 @@
             "id": "ecf35fda7fbdcfb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "@vasterlingWaarheidTijdBij1993.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@vasterlingWaarheidTijdBij1993.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@vasterlingWaarheidTijdBij1993.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "@vasterlingWaarheidTijdBij1993.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,11 +140,13 @@
   },
   "active": "ecf35fda7fbdcfb2",
   "lastOpenFiles": [
+    "@deschutterHeideggersFilosofieVan1988.md",
+    "@vedderHeideggersDenkenVan1985.md",
+    "@vasterlingWaarheidTijdBij1993.md",
     "@bergerVanTheologieNaar1989.md",
     "@deboerVanBrentanoTot1989.md",
     "@deschutterHeideggerVraagNaar1986.md",
     "@vedderErfgenamenVanToekomst1990.md",
-    "@vasterlingWaarheidTijdBij1993.md",
     "@heideggerMartinHeideggerAbraham1967.md",
     "@duintjerVraagNaarHet1966.md",
     "@vandewieleResDingBijdrage1962.md",
@@ -172,8 +166,6 @@
     "@vandijkHelderheidBegripFenomeen1997.md",
     "@boerDenkenHetLicht1997.md",
     "@bartelsGeschiedenisVanHet.md",
-    "@prinsEigentijdVermoedensGevat2009.md",
-    "@blokActualiteitTijdSein2007.md",
     "Untitled.canvas"
   ]
 }

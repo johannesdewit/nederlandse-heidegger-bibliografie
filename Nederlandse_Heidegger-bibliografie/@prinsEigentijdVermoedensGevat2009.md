@@ -1,5 +1,6 @@
 ---
 citekey: prinsEigentijdVermoedensGevat2009
+geïndexeerd: "true"
 ---
 [[@prinsHeideggersTweevoudigeVerloochening]]
 [[@oudemansHeideggerEenOntzetting1998]]

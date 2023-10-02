@@ -1,5 +1,6 @@
 ---
 citekey: visserNietzscheHeideggerEen1989
+geïndexeerd: "true"
 ---
 [[@heideggerWatMetafysica1970]]
 [[@heideggerTechniekOmmekeer1973]]

@@ -1,5 +1,6 @@
 ---
 citekey: vasterlingWaarheidTijdBij1993
+geïndexeerd: "true"
 ---
 [[@ijsselingHeideggerDenkenDanken1964]]
 [[@visserNietzscheHeideggerEen1989]]

@@ -1,5 +1,6 @@
 ---
 citekey: vankampenHeideggersDaseinMechanica2005
+geïndexeerd: "true"
 ---
 [[@bartelsGeschiedenisVanHet]]
 [[@blansHeideggerWereldVan1996]]

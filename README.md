@@ -1,6 +1,6 @@
 # Nederlandse Heidegger-bibliografie
 
-[Bibliografie van Nederlandse vertalingen van Heideggers werken](vertalingen.md). De data is [hier](bib-Vertalingen.json) te vinden in CSL JSON. 
+[Bibliografie van Nederlandse vertalingen van Heideggers werken](vertalingen.md). De data is [hier](bib-Vertalingen.json) te vinden in CSL-JSON. 
 
 ## Zoterogroep
 
@@ -16,4 +16,10 @@ Naar mijn weten zijn alle uitgegeven Nederlandse vertalingen van Heideggers werk
 
 ### Secundaire literatuur
 
-Er is een wens van de auteur om ook de Nederlandse secundaire literatuur te verzamelen. Dit ligt nog in het verschiet.
+Er is een (incomplete) verzameling van Nederlandse secundaire literatuur over Heidegger. Deze is opgedeeld in drie categorieën:
+- Artikelen, hoofdstukken e.d.
+- Bibliografieën
+- Bundels en verzamelingen
+- Monografieën
+
+Er zijn hier ook CSL-JSON-exports per categorie te vinden.

@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "76b2f9e1d560f1ea",
+        "id": "c7bbbb4af4ecede5",
         "type": "tabs",
         "children": [
           {
-            "id": "05365ea03840134b",
+            "id": "2fde2358ee8bdcd6",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -138,10 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05365ea03840134b",
+  "active": "2fde2358ee8bdcd6",
   "lastOpenFiles": [
-    "@ijsselingHetZijnZijnden1966.md",
     "@ijsselingHeideggerDenkenDanken1964.md",
+    "@ijsselingFilosofieHetTechnische1964.md",
+    "@kockelmansMartinHeidegggerEen1962.md",
+    "@boehmKritiekVanLevinas1963.md",
+    "@ijsselingHetZijnZijnden1966.md",
     "@bakkerHeideggersInterpretatieVan1969.md",
     "@delfgauwReligieuzeVraagAls1954.md",
     "@kuypersHeideggerHetGriekse1955.md",
@@ -163,9 +166,6 @@
     "@visserNietzscheHeideggerEen1989.md",
     "@deboerHeideggersKritiekOp1978.md",
     "@ijsselingHeideggerMarx1966.md",
-    "@ijsselingWaarheidBijHusserl1969.md",
-    "@ijsselingFilosofiePsychoanalyseEnige1969.md",
-    "@ijsselingHeideggerFenomenologie1976.md",
     "Untitled.canvas"
   ]
 }

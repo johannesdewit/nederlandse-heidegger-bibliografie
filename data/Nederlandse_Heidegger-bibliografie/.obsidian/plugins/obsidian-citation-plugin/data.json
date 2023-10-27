@@ -5,5 +5,5 @@
   "literatureNoteContentTemplate": "---\ncitekey: {{citekey}}\ngeïndexeerd: false\n---\n\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
-  "citationExportPath": "../data/bib.json"
+  "citationExportPath": "../bib.json"
 }

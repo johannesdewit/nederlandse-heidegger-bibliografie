@@ -1,0 +1,10 @@
+{% extends '_site_base.html' %}
+
+{% block head_title %}{{ bib_entry }}{% endblock head_title %}
+
+{% block body %}
+<h1>{{ bib_entry }}</h1>
+{% if bib_entry.ref %}<p>{{ bib_entry.ref }}</p>{% endif %}
+<h2>Data</h2>
+{{ bib_entry.csl_json }}
+{% endblock body %}

@@ -20,6 +20,6 @@ from nederlandse_heidegger_bibliografie import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", views.index),
-    path("<str:bib_id>/", views.detail)
+    path("", views.index, name="index"),
+    path("<str:bib_id>/", views.detail, name="detail")
 ]

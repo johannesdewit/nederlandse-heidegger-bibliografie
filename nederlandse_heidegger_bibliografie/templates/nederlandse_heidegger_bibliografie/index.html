@@ -3,9 +3,9 @@
 {% block body %}
 <h1>Nederlandse Heidegger-bibliografie</h1>
 <ul>
-    {% for i in bibliografie %}
+    {% for i in bibliography %}
     <li>
-        <a href="{% url 'detail' i.id %}" >{{ i.id }}</a>
+        <a href="{% url 'detail' i.id %}">{{ i.id }}</a>
     </li>
     {% endfor %}
 </ul>

@@ -1,3 +1,4 @@
+from requests import HTTPError
 from tqdm import tqdm
 import json
 
@@ -52,7 +53,18 @@ class Command(BaseCommand):
         # Populate bib
         bib_objs = []
         for i in bib_data:
-            bib_obj = BibEntry(id=i['id'], csl_data=i)
+            bib_id = i['id']
+            bib_obj = BibEntry(id=bib_id, csl_json=i)
+
+            if perform_external_calls:
+                try:
+                    bib_obj.gen_reference()
+                except HTTPError as e:
+                    self.stdout.write(
+                        f"Skipping {bib_id} reference generation because of HTTP error: {e}"
+                    )
+            else:
+                bib_obj.reference = "—"
 
             bib_objs.append(bib_obj)
 

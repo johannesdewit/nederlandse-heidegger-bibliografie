@@ -4,7 +4,7 @@
 
 {% block body %}
 <h1>{{ bib_entry }}</h1>
-{% if bib_entry.ref %}<p>{{ bib_entry.ref }}</p>{% endif %}
+{% if bib_entry.reference %}<p>{{ bib_entry.reference | safe }}</p>{% endif %}
 <h2>Data</h2>
-{{ bib_entry.csl_data }}
+{{ bib_entry.csl_json }}
 {% endblock body %}

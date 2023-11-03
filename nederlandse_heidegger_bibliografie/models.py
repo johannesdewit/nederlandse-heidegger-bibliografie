@@ -18,7 +18,7 @@ class BibEntry(models.Model):
             r = requests.post(
                 settings.CITEPROC_ENDPOINT,
                 json={"items": [self.csl_json]},
-                params={"style": settings.CITEPROC_STYLE, "responseformat": "html", "locale": "nl-NL"},
+                params={"style": settings.CITEPROC_STYLE, "responseformat": "html", "locale": settings.LANGUAGE_CODE},
             )
             r.raise_for_status()
             self.reference = r.content.decode()

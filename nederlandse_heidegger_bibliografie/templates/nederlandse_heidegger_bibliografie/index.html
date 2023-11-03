@@ -13,6 +13,6 @@
 {% block body %}
 <h1>Nederlandse Heidegger-bibliografie</h1>
 {% for i in bibliography %}
-{{ i.reference | safe }}
+<a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a>
 {% endfor %}
 {% endblock body %}

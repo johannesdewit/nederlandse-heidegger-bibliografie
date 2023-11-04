@@ -1,5 +1,5 @@
 ---
 citekey: ijsselingWaarheidBijHusserl1969
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@ijsselingFilosofiePsychoanalyseEnige1969]]

@@ -1,5 +1,5 @@
 ---
 citekey: scheltensMiddeleeuwseIlluminatieleerHet1969
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 

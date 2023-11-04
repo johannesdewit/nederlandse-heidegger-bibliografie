@@ -1,5 +1,5 @@
 ---
 citekey: deboerHeideggerNatuurEen1985
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@oudemansHeideggersFilosofieVan1985]]

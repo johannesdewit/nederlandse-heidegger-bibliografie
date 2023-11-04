@@ -1,6 +1,6 @@
 ---
 citekey: oudemansHeideggerEenOntzetting1998
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@heideggerSpreukVanAnaximander1997]]
 [[@boerDenkenHetLicht1997]]

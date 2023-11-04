@@ -8,14 +8,14 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "[\"geïndexeerd\": true]",
+      "query": "line: geïndexeerd true",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,

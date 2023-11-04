@@ -1,6 +1,6 @@
 ---
 citekey: bakkerHeideggersInterpretatieVan1969
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@bakkerGeschiedenisVanHet1974]]
 [[@duintjerVraagNaarHet1966]]

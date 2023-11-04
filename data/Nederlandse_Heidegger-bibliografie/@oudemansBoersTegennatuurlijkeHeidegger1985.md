@@ -1,5 +1,5 @@
 ---
 citekey: oudemansBoersTegennatuurlijkeHeidegger1985
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@deboerHeideggerNatuurEen1985]]

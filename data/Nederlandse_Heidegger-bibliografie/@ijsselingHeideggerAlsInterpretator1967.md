@@ -1,6 +1,6 @@
 ---
 citekey: ijsselingHeideggerAlsInterpretator1967
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@ijsselingHeideggerDenkenDanken1964]]
 [[@ijsselingHetZijnZijnden1966]]

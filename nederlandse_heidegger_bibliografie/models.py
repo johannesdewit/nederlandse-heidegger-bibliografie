@@ -9,6 +9,7 @@ class BibEntry(models.Model):
     csl_json = models.JSONField()
     reference = models.TextField(max_length=1024, null=True)
     indexed = models.BooleanField(default=False)
+    citations = models.ManyToManyField("self", symmetrical= False, related_name="cited_by")
 
     def __str__(self):
         return self.id

@@ -1,5 +1,5 @@
 ---
 citekey: ijsselingHeideggerMarx1966
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@ijsselingHeideggerDenkenDanken1964]]

@@ -5,6 +5,18 @@
 {% block body %}
 <h1>{{ bib_entry }}</h1>
 {% if bib_entry.reference %}<p>{{ bib_entry.reference | safe }}</p>{% endif %}
+<h2>Indexed</h2>
+{{ bib_entry.indexed }}
 <h2>Data</h2>
 {{ bib_entry.csl_json }}
+{% if bib_entry.indexed %}
+<h2>Citations</h2>
+{% for i in bib_entry.citations.all %}
+<a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a>
+{% endfor %}
+{% endif %}
+<h2>Cited by</h2>
+{% for i in bib_entry.cited_by.all %}
+<a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a>
+{% endfor %}
 {% endblock body %}

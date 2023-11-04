@@ -1,6 +1,6 @@
 ---
 citekey: ijsselingHeideggerDenkenDanken1964
-geïndexeerd: "false"
+geïndexeerd: false
 ---
 [[@alerTaalBijMartin1961]]
 [[@boehmKritiekVanLevinas1963]]

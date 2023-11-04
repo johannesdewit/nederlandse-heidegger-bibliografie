@@ -1,6 +1,6 @@
 ---
 citekey: deschutterHeideggersFilosofieVan1988
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@duintjerVraagNaarHet1966]]
 [[@vedderHeideggersDenkenVan1985]]

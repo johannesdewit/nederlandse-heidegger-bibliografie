@@ -1,6 +1,6 @@
 ---
 citekey: vasterlingWaarheidTijdBij1993
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@ijsselingHeideggerDenkenDanken1964]]
 [[@visserNietzscheHeideggerEen1989]]
@@ -10,4 +10,3 @@ geïndexeerd: "true"
 [[@deschutterHeideggerVraagNaar1986]]
 [[@deboerVanBrentanoTot1989]]
 [[@bergerVanTheologieNaar1989]]
-

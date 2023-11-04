@@ -1,5 +1,5 @@
 ---
 citekey: vandoosselaereAngstGelatenheidAls1975
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@heideggerWatMetafysica1970]]

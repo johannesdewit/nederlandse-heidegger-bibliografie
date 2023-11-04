@@ -1,8 +1,8 @@
 ---
 citekey: prinsEigentijdVermoedensGevat2009
-geïndexeerd: "true"
+geïndexeerd: true
 ---
-[[@prinsHeideggersTweevoudigeVerloochening]]
+[[@prinsHeideggersTweevoudigeVerloochening1990]]
 [[@oudemansHeideggerEenOntzetting1998]]
 [[@blokActualiteitTijdSein2007]]
 [[@prinsZijnErHolzwege1997]]

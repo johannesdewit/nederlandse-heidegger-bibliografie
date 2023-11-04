@@ -1,6 +1,6 @@
 ---
 citekey: verhoofMetafysicaVerlegenheidNotities2005
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@vandewieleMetafysicaHetGodsprobleem1994]]
 

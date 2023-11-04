@@ -1,6 +1,6 @@
 ---
 citekey: deboerHeideggersKritiekOp1978
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@ijsselingHeideggerGrondproblemenVan1976]]
 [[@ijsselingHeideggerFenomenologie1976]]

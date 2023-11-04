@@ -1,5 +1,5 @@
 ---
 citekey: ijsselingHeideggerFenomenologie1976
-geïndexeerd: "true"
+geïndexeerd: true
 ---
 [[@ijsselingHeideggerGrondproblemenVan1976]]

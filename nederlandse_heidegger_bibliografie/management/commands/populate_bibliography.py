@@ -87,11 +87,18 @@ class Command(BaseCommand):
         bib_objs = []
         for i in tqdm(bib_data, desc="Parsing data (and generating references)"):
             bib_id = i['id']
+            year_issued = i['issued']['date-parts'][0][0]
+            
             try: 
                 indexed = citation_data_by_id[bib_id]['indexed']
             except:
                 indexed = False
-            bib_obj = BibEntry(id=bib_id, csl_json=i, indexed=indexed)
+            bib_obj = BibEntry(
+                id=bib_id,
+                csl_json=i,
+                year_issued=year_issued,
+                indexed=indexed
+                )
 
             if perform_external_calls:
                 try:

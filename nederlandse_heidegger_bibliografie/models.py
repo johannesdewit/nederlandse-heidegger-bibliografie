@@ -1,4 +1,6 @@
 import requests
+import datetime
+
 from django.db import models
 from django.conf import settings
 
@@ -7,6 +9,7 @@ class BibEntry(models.Model):
     # TODO Regex id to match BetterBibtex id's
     id = models.CharField(max_length=256, unique=True, primary_key=True)
     csl_json = models.JSONField()
+    year_issued = models.PositiveSmallIntegerField(null=True)
     reference = models.TextField(max_length=1024, null=True)
     indexed = models.BooleanField(default=False)
     citations = models.ManyToManyField("self", symmetrical= False, related_name="cited_by")

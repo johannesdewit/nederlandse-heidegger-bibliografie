@@ -7,6 +7,8 @@
 {% if bib_entry.reference %}<p>{{ bib_entry.reference | safe }}</p>{% endif %}
 <h2>Indexed</h2>
 {{ bib_entry.indexed }}
+<h2>Year issued</h2>
+{{ bib_entry.year_issued }}
 <h2>Data</h2>
 {{ bib_entry.csl_json }}
 {% if bib_entry.indexed %}

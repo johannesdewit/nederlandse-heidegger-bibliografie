@@ -16,7 +16,7 @@ Naar mijn weten zijn alle uitgegeven Nederlandse vertalingen van Heideggers werk
 
 ### Secundaire literatuur
 
-Er is een (incomplete) verzameling van Nederlandse secundaire literatuur over Heidegger. Deze is opgedeeld in drie categorieën:
+Er is een (incomplete) verzameling van Nederlandse secundaire literatuur over Heidegger. Deze is opgedeeld in vier categorieën:
 - Artikelen, hoofdstukken e.d.
 - Bibliografieën
 - Bundels en verzamelingen

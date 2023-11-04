@@ -15,10 +15,14 @@
 <h2>Citations</h2>
 {% for i in bib_entry.citations.all %}
 <a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a>
+{% empty %}
+<p><i>This work does not cite any other works out of this bibliography</i></p>
 {% endfor %}
 {% endif %}
 <h2>Cited by</h2>
 {% for i in bib_entry.cited_by.all %}
 <a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a>
+{% empty %}
+<p><i>This work is not cited by any other works out of this bibliography</i></p>
 {% endfor %}
 {% endblock body %}

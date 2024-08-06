@@ -11,8 +11,12 @@
             "id": "2fde2358ee8bdcd6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "@alerTaalBijMartin1961.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "@alerTaalBijMartin1961.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "@alerTaalBijMartin1961.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "@alerTaalBijMartin1961.md"
+              }
             }
           }
         ]
@@ -140,32 +148,32 @@
   },
   "active": "2fde2358ee8bdcd6",
   "lastOpenFiles": [
-    "@janssenperioHoeHelderHeidegger2000.md",
-    "@bartelsGeschiedenisVanHet2002.md",
-    "@prinsHeideggersTweevoudigeVerloochening.md",
-    "@janssenperioHoeHelderHeidegger200.md",
-    "@bartelsGeschiedenisVanHet.md",
-    "@viskerVanFoucaultNaar1991.md",
-    "@vedderHeideggersDenkenVan1985.md",
-    "@vandewieleZijnswaarheidOnverborgenheidVergelijkende1964.md",
-    "@vandewieleMetafysicaHetGodsprobleem1994.md",
-    "@beerlingModerneDoodsproblematiekEen1945.md",
-    "@ijsselingHeideggerDenkenDanken1964.md",
-    "@ijsselingFilosofieHetTechnische1964.md",
-    "@kockelmansMartinHeidegggerEen1962.md",
-    "@boehmKritiekVanLevinas1963.md",
-    "@ijsselingHetZijnZijnden1966.md",
+    "@bakkerGeschiedenisVanHet1974.md",
     "@bakkerHeideggersInterpretatieVan1969.md",
+    "@bartelsGeschiedenisVanHet2002.md",
+    "@beekmanBetekenisVanHeidegger1993.md",
+    "@beerlingModerneDoodsproblematiekEen1945.md",
+    "@beerlingVanNietzscheTot1977.md",
+    "@bergerVanTheologieNaar1989.md",
+    "@blansHeideggerWereldVan1996.md",
+    "@blokActualiteitTijdSein2007.md",
+    "@boehmKritiekVanLevinas1963.md",
+    "@boerDenkenHetLicht1997.md",
+    "@deboerHeideggerNatuurEen1985.md",
+    "@deboerHeideggersKritiekOp1978.md",
+    "@deboerVanBrentanoTot1989.md",
     "@delfgauwReligieuzeVraagAls1954.md",
-    "@kuypersHeideggerHetGriekse1955.md",
-    "@prinsUitVerveling2007.md",
-    "@visserLeegteVanKruik1993.md",
+    "@denkerOmdatFilosoferenLeven1997.md",
+    "@deschutterHeideggersFilosofieVan1988.md",
+    "@deschutterHeideggerVraagNaar1986.md",
     "@devisscherWonenNabijheidVan1991.md",
-    "@prinsICTZijnsverlatenTijden2002.md",
-    "@prinsHeideggersTweevoudigeVerloochening1990.md",
-    "@prinsHeideggerEthiek1990.md",
-    "@prinsHeideggersDwaling1988.md",
-    "@norberg-schulzArchitectuurAlsVergaring1991.md",
+    "@duintjerHetPrimaatVan2002.md",
+    "@duintjerVraagNaarHet1966.md",
+    "@heideggerDenkenBouwenWonen1991.md",
+    "@heideggerGelatenheid1979.md",
+    "@heideggerMartinHeideggerAbraham1967.md",
+    "@heideggerSpreukVanAnaximander1997.md",
+    "@heideggerWatDatFilosofie1970.md",
     "Untitled.canvas"
   ]
 }

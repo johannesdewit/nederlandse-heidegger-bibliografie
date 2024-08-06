@@ -80,7 +80,7 @@ class Command(BaseCommand):
             citation_data_by_id[bib_id] = citation_info
 
         # Load bib data
-        with open(settings.BIB_DATA) as f:
+        with open(settings.BIB_DATA, encoding='utf-8') as f:
             bib_data = json.load(f)
 
         # Populate bib

@@ -8,7 +8,7 @@ geïndexeerd: true
 [[@roessinghGodsdienstwijsgerigeProblematiekHet1956]]
 [[@vanpeursenPhilosophieVanMartin1951]]
 [[@kuypersVerhoudingTusschenTijd1932]]
-[[@beerlingModerneDoodsproblematiekEen1945]]
+[[@beerlingModerneDoodsproblematiekEen1946]]
 [[@alerTaalBijMartin1961]]
 [[@bakkerGeschiedenisVanHet1974]]
 [[@vandewieleResDingBijdrage1962]]

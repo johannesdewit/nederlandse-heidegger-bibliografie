@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@beerlingModerneDoodsproblematiekEen1945.md",
+                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@beerlingModerneDoodsproblematiekEen1945.md",
+                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@beerlingModerneDoodsproblematiekEen1945.md",
+                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@beerlingModerneDoodsproblematiekEen1945.md"
+                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md"
               }
             }
           }
@@ -146,13 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62269ff02f729a9f",
+  "active": "68ccf56b3312dc9b",
   "lastOpenFiles": [
+    "@beerlingModerneDoodsproblematiekEen1946.md",
     "@stompsPhilosophieVanMartin1938.md",
     "@beerlingExistentiephilosophieVanHeidegger1935.md",
     "@ijsselingHeideggerDenkenDanken1964.md",
     "@vanpeursenPhilosophieVanMartin1951.md",
-    "@graaffHetSchuldprobleemExistentiephilosophie1950.md",
+    "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
     "@schuwerZijnsleerVanMartin1951.md",
     "@spernaweilandMytheVanEen1957.md",
     "@vedderHeideggersLaatsteGod1991.md",
@@ -173,7 +175,6 @@
     "@mansfeldHermeneutischeTechniekHeideggers1966.md",
     "@bakkerHeideggersInterpretatieVan1969.md",
     "@bartelsGeschiedenisVanHet2002.md",
-    "@ijsselingWaarheidBijHusserl1969.md",
     "Untitled.canvas"
   ]
 }

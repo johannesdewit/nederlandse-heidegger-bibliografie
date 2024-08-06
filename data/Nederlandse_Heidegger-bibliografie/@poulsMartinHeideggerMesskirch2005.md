@@ -1,6 +1,6 @@
 ---
 citekey: poulsMartinHeideggerMesskirch2005
-geïndexeerd: true
+indexed: True
 ---
 
 [[@heideggerLandweg2001]]

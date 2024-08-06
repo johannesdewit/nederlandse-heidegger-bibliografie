@@ -1,5 +1,5 @@
 ---
 citekey: heideggerOorsprongVanHet1996
-geïndexeerd: false
+indexed: False
 ---
 

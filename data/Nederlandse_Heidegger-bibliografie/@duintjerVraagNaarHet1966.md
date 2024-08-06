@@ -1,6 +1,6 @@
 ---
 citekey: duintjerVraagNaarHet1966
-geïndexeerd: true
+indexed: True
 ---
 [[@zuidemaPlaatsTheologieHet1955]]
 [[@ijsselingDerridaHeidegger1986]]

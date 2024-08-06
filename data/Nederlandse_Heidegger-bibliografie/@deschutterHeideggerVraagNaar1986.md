@@ -1,6 +1,6 @@
 ---
 citekey: deschutterHeideggerVraagNaar1986
-geïndexeerd: true
+indexed: True
 ---
 
 [[@ijsselingHeideggerGrondproblemenVan1976]]

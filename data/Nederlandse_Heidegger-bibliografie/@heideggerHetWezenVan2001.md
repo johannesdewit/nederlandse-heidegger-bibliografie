@@ -1,5 +1,5 @@
 ---
 citekey: heideggerHetWezenVan2001
-geïndexeerd: false
+indexed: False
 ---
 

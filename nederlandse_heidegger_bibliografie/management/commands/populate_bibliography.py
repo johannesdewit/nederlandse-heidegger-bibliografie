@@ -62,8 +62,11 @@ class Command(BaseCommand):
                 bib_id = md_frontmatter['citekey']
                 
                 try:
-                    citation_info['indexed'] = md_frontmatter['geïndexeerd']
-                except:
+                    citation_info['indexed'] = md_frontmatter['indexed']
+                except KeyError as e:
+                    self.stdout.write(
+                        f"{e}: indexstatus is niet gedefinieerd bij entry {bib_id}."
+                    )
                     citation_info['indexed'] = False
 
                 citation_list = []

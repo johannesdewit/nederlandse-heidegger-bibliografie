@@ -1,6 +1,6 @@
 ---
 citekey: deschutterHeidegger2020
-geïndexeerd: true
+indexed: True
 ---
 
 [[@arendtBrievenAndereGetuigenissen2004]]

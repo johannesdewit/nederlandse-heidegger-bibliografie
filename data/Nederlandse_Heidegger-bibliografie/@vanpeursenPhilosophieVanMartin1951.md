@@ -1,6 +1,6 @@
 ---
 citekey: vanpeursenPhilosophieVanMartin1951
-geïndexeerd: true
+indexed: True
 ---
 
 [[@schuwerZijnsleerVanMartin1951]]

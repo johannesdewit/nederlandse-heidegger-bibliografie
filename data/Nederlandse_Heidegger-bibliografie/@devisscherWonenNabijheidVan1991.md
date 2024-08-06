@@ -1,5 +1,5 @@
 ---
 citekey: devisscherWonenNabijheidVan1991
-geïndexeerd: false
+indexed: False
 ---
 

@@ -1,6 +1,6 @@
 ---
 citekey: vandeveireMartinHeideggerKunst2002
-geïndexeerd: true
+indexed: True
 ---
 
 [[@heideggerOorsprongVanHet1996]]

@@ -1,5 +1,5 @@
 ---
 citekey: kuypersHeideggerHetGriekse1955
-geïndexeerd: false
+indexed: False
 ---
 

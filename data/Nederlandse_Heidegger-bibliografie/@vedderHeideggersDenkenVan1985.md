@@ -1,6 +1,6 @@
 ---
 citekey: vedderHeideggersDenkenVan1985
-geïndexeerd: true
+indexed: True
 ---
 
 [[@ijsselingHeideggerDenkenDanken1964]]

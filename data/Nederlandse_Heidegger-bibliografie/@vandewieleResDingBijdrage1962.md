@@ -1,5 +1,5 @@
 ---
 citekey: vandewieleResDingBijdrage1962
-geïndexeerd: true
+indexed: True
 ---
 

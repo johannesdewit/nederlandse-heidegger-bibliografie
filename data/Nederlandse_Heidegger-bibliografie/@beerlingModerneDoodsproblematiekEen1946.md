@@ -1,6 +1,6 @@
 ---
 citekey: beerlingModerneDoodsproblematiekEen1946
-geïndexeerd: true
+indexed: True
 ---
 
 [[@stompsPhilosophieVanMartin1938]]

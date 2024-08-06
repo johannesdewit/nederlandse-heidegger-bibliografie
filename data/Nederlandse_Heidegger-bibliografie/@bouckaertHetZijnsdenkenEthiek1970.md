@@ -1,6 +1,6 @@
 ---
 citekey: bouckaertHetZijnsdenkenEthiek1970
-geïndexeerd: true
+indexed: True
 ---
 
 [[@boehmKritiekVanLevinas1963]]

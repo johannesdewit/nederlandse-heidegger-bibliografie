@@ -1,6 +1,6 @@
 ---
 citekey: viskerVanFoucaultNaar1991
-geïndexeerd: true
+indexed: True
 ---
 [[@scheltensMiddeleeuwseIlluminatieleerHet1969]]
 [[@ijsselingHeideggerMimesis1990]]

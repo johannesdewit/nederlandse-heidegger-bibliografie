@@ -1,5 +1,5 @@
 ---
 citekey: beerlingExistentiephilosophieVanHeidegger1935
-geïndexeerd: false
+indexed: False
 ---
 

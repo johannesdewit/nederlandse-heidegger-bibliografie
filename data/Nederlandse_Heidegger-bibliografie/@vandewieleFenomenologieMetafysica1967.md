@@ -1,6 +1,6 @@
 ---
 citekey: vandewieleFenomenologieMetafysica1967
-geïndexeerd: true
+indexed: True
 ---
 
 [[@ijsselingHeideggerDenkenDanken1964]]

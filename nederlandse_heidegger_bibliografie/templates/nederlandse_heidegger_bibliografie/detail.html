@@ -5,20 +5,26 @@
 {% block body %}
 <h1>{{ bib_entry }}</h1>
 {% if bib_entry.reference %}<p>{{ bib_entry.reference | safe }}</p>{% endif %}
-<h2>Indexed</h2>
+<h2>Geïndexeerd</h2>
 {{ bib_entry.indexed }}
-<h2>Year issued</h2>
+<h2>Jaar van publicatie</h2>
 {{ bib_entry.year_issued }}
 <h2>Data</h2>
 {{ bib_entry.csl_json }}
-{% if bib_entry.indexed %}
-<h2>Citations</h2>
+<h2>Werken geciteerd</h2>
+<ul>
 {% for i in bib_entry.citations.all %}
-<a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a>
+<li><a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a></li>
+{% empty %}
+<li>Er worden geen werken uit deze bibliografie in dit werk geciteerd.</li>
 {% endfor %}
-{% endif %}
-<h2>Cited by</h2>
+</ul>
+<h2>Geciteerd door</h2>
+<ul>
 {% for i in bib_entry.cited_by.all %}
-<a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a>
+<li><a href="{% url 'detail' i.id %}">{{ i.id | safe }}</a></li>
+{% empty %}
+<li>Dit werk wordt niet geciteerd in werken uit deze bibliografie.</li>
 {% endfor %}
+</ul>
 {% endblock body %}

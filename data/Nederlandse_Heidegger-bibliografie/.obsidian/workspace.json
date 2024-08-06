@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
+                "file": "@prinsHeideggersDwaling1988.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[]",
+                "query": "false",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
+                "file": "@prinsHeideggersDwaling1988.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
+                "file": "@prinsHeideggersDwaling1988.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@graaffHetSchuldprobleemExistentiephilosophie1951.md"
+                "file": "@prinsHeideggersDwaling1988.md"
               }
             }
           }
@@ -149,32 +149,32 @@
   },
   "active": "68ccf56b3312dc9b",
   "lastOpenFiles": [
-    "@beerlingModerneDoodsproblematiekEen1946.md",
-    "@stompsPhilosophieVanMartin1938.md",
-    "@beerlingExistentiephilosophieVanHeidegger1935.md",
-    "@ijsselingHeideggerDenkenDanken1964.md",
-    "@vanpeursenPhilosophieVanMartin1951.md",
-    "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
-    "@schuwerZijnsleerVanMartin1951.md",
+    "@arendtBrievenAndereGetuigenissen2004.md",
+    "@bakkerGeschiedenisVanHet1974.md",
     "@spernaweilandMytheVanEen1957.md",
+    "@vandewieleResDingBijdrage1962.md",
+    "@schuwerZijnsleerVanMartin1951.md",
+    "@vandewieleMetafysicaHetGodsprobleem1994.md",
+    "@vanpeursenPhilosophieVanMartin1951.md",
+    "@deschutterHeideggersFilosofieVan1988.md",
+    "@blokActualiteitTijdSein2007.md",
+    "@beerlingVanNietzscheTot1977.md",
+    "@alerTaalBijMartin1961.md",
+    "@beerlingExistentiephilosophieVanHeidegger1935.md",
+    "@duintjerVraagNaarHet1966.md",
+    "@duintjerHetPrimaatVan2002.md",
+    "@bakkerHeideggersInterpretatieVan1969.md",
+    "@bartelsGeschiedenisVanHet2002.md",
+    "@beerlingModerneDoodsproblematiekEen1946.md",
+    "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
+    "@stompsPhilosophieVanMartin1938.md",
+    "@ijsselingHeideggerDenkenDanken1964.md",
     "@vedderHeideggersLaatsteGod1991.md",
     "@zuidemaPlaatsTheologieHet1955.md",
     "@delfgauwReligieuzeVraagAls1954.md",
-    "@vandewieleResDingBijdrage1962.md",
     "@vandewieleFenomenologieMetafysica1967.md",
     "@bouckaertHetZijnsdenkenEthiek1970.md",
     "@luijpenFenomenologieMetafysica1966.md",
-    "@boehmKritiekVanLevinas1963.md",
-    "@ijsselingFilosofieHetTechnische1964.md",
-    "@ijsselingHeideggerFenomenologie1976.md",
-    "@ijsselingHeideggerGrondproblemenVan1976.md",
-    "@ijsselingHeideggerMarx1966.md",
-    "@ijsselingHeideggerHetGeschreven1992.md",
-    "@ijsselingHetZijnZijnden1966.md",
-    "@ijsselingHeideggerAlsInterpretator1967.md",
-    "@mansfeldHermeneutischeTechniekHeideggers1966.md",
-    "@bakkerHeideggersInterpretatieVan1969.md",
-    "@bartelsGeschiedenisVanHet2002.md",
     "Untitled.canvas"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 citekey: heideggerMartinHeideggerAbraham1967
-geïndexeerd: true
+indexed: True
 ---
 [[@ijsselingHeideggerDenkenDanken1964]]
 [[@duintjerVraagNaarHet1966]]

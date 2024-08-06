@@ -1,5 +1,5 @@
 ---
 citekey: heideggerTijdVanHet1983
-geïndexeerd: false
+indexed: False
 ---
 

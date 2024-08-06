@@ -1,5 +1,5 @@
 ---
 citekey: mazijkHeideggerFenomenologieVan2021
-geïndexeerd: true
+indexed: True
 ---
 [[@heideggerZijnTijd1998]]

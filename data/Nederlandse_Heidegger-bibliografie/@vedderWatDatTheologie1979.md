@@ -1,6 +1,6 @@
 ---
 citekey: vedderWatDatTheologie1979
-geïndexeerd: true
+indexed: True
 ---
 
 [[@ijsselingHeideggerAlsInterpretator1967]]

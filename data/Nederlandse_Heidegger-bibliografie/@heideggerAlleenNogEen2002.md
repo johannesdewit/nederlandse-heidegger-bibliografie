@@ -1,5 +1,5 @@
 ---
 citekey: heideggerAlleenNogEen2002
-geïndexeerd: false
+indexed: False
 ---
 

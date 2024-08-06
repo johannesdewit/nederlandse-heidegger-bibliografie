@@ -1,6 +1,6 @@
 ---
 citekey: verbruggeVerwaarlozingVanHet2001
-geïndexeerd: true
+indexed: True
 ---
 [[@duintjerVraagNaarHet1966]]
 [[@oudemansHeideggersFormeelAanwijzende1988]]

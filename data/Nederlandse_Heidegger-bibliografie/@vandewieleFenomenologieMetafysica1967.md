@@ -1,8 +1,6 @@
 ---
-citekey: vedderHeideggersDenkenVan1985
+citekey: vandewieleFenomenologieMetafysica1967
 geïndexeerd: true
 ---
 
 [[@ijsselingHeideggerDenkenDanken1964]]
-
-

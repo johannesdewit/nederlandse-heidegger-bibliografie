@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c7bbbb4af4ecede5",
+        "id": "a4c6fc4406b76af6",
         "type": "tabs",
         "children": [
           {
-            "id": "2fde2358ee8bdcd6",
+            "id": "62269ff02f729a9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "@alerTaalBijMartin1961.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@alerTaalBijMartin1961.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@alerTaalBijMartin1961.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "@alerTaalBijMartin1961.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,34 +138,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fde2358ee8bdcd6",
+  "active": "62269ff02f729a9f",
   "lastOpenFiles": [
-    "@bakkerGeschiedenisVanHet1974.md",
+    "@ijsselingHeideggerDenkenDanken1964.md",
+    "@vanpeursenPhilosophieVanMartin1951.md",
+    "@graaffHetSchuldprobleemExistentiephilosophie1950.md",
+    "@schuwerZijnsleerVanMartin1951.md",
+    "@spernaweilandMytheVanEen1957.md",
+    "@vedderHeideggersLaatsteGod1991.md",
+    "@zuidemaPlaatsTheologieHet1955.md",
+    "@delfgauwReligieuzeVraagAls1954.md",
+    "@vandewieleResDingBijdrage1962.md",
+    "@vandewieleFenomenologieMetafysica1967.md",
+    "@bouckaertHetZijnsdenkenEthiek1970.md",
+    "@luijpenFenomenologieMetafysica1966.md",
+    "@boehmKritiekVanLevinas1963.md",
+    "@ijsselingFilosofieHetTechnische1964.md",
+    "@ijsselingHeideggerFenomenologie1976.md",
+    "@ijsselingHeideggerGrondproblemenVan1976.md",
+    "@ijsselingHeideggerMarx1966.md",
+    "@ijsselingHeideggerHetGeschreven1992.md",
+    "@ijsselingHetZijnZijnden1966.md",
+    "@ijsselingHeideggerAlsInterpretator1967.md",
+    "@mansfeldHermeneutischeTechniekHeideggers1966.md",
     "@bakkerHeideggersInterpretatieVan1969.md",
     "@bartelsGeschiedenisVanHet2002.md",
-    "@beekmanBetekenisVanHeidegger1993.md",
-    "@beerlingModerneDoodsproblematiekEen1945.md",
-    "@beerlingVanNietzscheTot1977.md",
-    "@bergerVanTheologieNaar1989.md",
-    "@blansHeideggerWereldVan1996.md",
-    "@blokActualiteitTijdSein2007.md",
-    "@boehmKritiekVanLevinas1963.md",
-    "@boerDenkenHetLicht1997.md",
-    "@deboerHeideggerNatuurEen1985.md",
-    "@deboerHeideggersKritiekOp1978.md",
-    "@deboerVanBrentanoTot1989.md",
-    "@delfgauwReligieuzeVraagAls1954.md",
-    "@denkerOmdatFilosoferenLeven1997.md",
-    "@deschutterHeideggersFilosofieVan1988.md",
-    "@deschutterHeideggerVraagNaar1986.md",
-    "@devisscherWonenNabijheidVan1991.md",
-    "@duintjerHetPrimaatVan2002.md",
-    "@duintjerVraagNaarHet1966.md",
-    "@heideggerDenkenBouwenWonen1991.md",
-    "@heideggerGelatenheid1979.md",
-    "@heideggerMartinHeideggerAbraham1967.md",
-    "@heideggerSpreukVanAnaximander1997.md",
-    "@heideggerWatDatFilosofie1970.md",
+    "@ijsselingWaarheidBijHusserl1969.md",
+    "@ijsselingFilosofiePsychoanalyseEnige1969.md",
+    "@scheltensMiddeleeuwseIlluminatieleerHet1969.md",
     "Untitled.canvas"
   ]
 }

@@ -126,4 +126,4 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CITEPROC_ENDPOINT = "https://citeproc.delve.nu"
-CITEPROC_STYLE = "mhra"
+CITEPROC_STYLE = "chicago-author-date"

@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>{% block head_title %}Nederlandse Heidegger-bibliografie{% endblock %}</title>
         {% block head %}{% endblock %}
+        <style>
+            .cited-by-section, .citations-section {
+                margin: auto;
+                height: 25%;
+                position: relative;
+                text-align: center;
+            }
+
+            .cited-by-section ul, .citations-section ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .entry-detail {
+                border-style: solid;
+                margin: 5%;
+                min-height: 40%;
+                position: relative;
+                padding: 30px;
+                word-wrap: break-word;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        </style>
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <div class="container-md">
+            {% block body %}{% endblock %}
+        </div>
     </body>
 </html>

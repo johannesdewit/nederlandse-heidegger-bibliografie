@@ -13,11 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@prinsHeideggersDwaling1988.md",
+                "file": "@prinsUitVerveling2007.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "43de665e903e1634"
+          }
+        ]
+      },
+      {
+        "id": "e64e4938811b53ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "281e0e372cce776c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "@prinsUitVerveling2007.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            },
+            "group": "43de665e903e1634"
           }
         ]
       }
@@ -65,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@prinsHeideggersDwaling1988.md",
+                "file": "@prinsUitVerveling2007.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@prinsHeideggersDwaling1988.md",
+                "file": "@prinsUitVerveling2007.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@prinsHeideggersDwaling1988.md"
+                "file": "@prinsUitVerveling2007.md"
               }
             }
           }
@@ -134,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68ccf56b3312dc9b",
+  "active": "281e0e372cce776c",
   "lastOpenFiles": [
+    "@beerlingModerneDoodsproblematiekEen1946.md",
+    "@prinsHeideggersDwaling1988.md",
     "@arendtBrievenAndereGetuigenissen2004.md",
     "@bakkerGeschiedenisVanHet1974.md",
     "@spernaweilandMytheVanEen1957.md",
@@ -165,7 +208,6 @@
     "@duintjerHetPrimaatVan2002.md",
     "@bakkerHeideggersInterpretatieVan1969.md",
     "@bartelsGeschiedenisVanHet2002.md",
-    "@beerlingModerneDoodsproblematiekEen1946.md",
     "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
     "@stompsPhilosophieVanMartin1938.md",
     "@ijsselingHeideggerDenkenDanken1964.md",
@@ -174,7 +216,6 @@
     "@delfgauwReligieuzeVraagAls1954.md",
     "@vandewieleFenomenologieMetafysica1967.md",
     "@bouckaertHetZijnsdenkenEthiek1970.md",
-    "@luijpenFenomenologieMetafysica1966.md",
     "Untitled.canvas"
   ]
 }

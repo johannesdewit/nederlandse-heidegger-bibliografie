@@ -20,13 +20,21 @@ class BibEntry(models.Model):
     @property
     def first_letter(self):
         return self.id[0].upper()
+
+    @property
+    def title(self):
+        return self.csl_json.get("title-short") or self.csl_json.get("title") or ""
     
     def gen_reference(self):
         if not self.reference and self.csl_json:
             r = requests.post(
                 settings.CITEPROC_ENDPOINT,
                 json={"items": [self.csl_json]},
-                params={"style": settings.CITEPROC_STYLE, "responseformat": "html", "locale": settings.LANGUAGE_CODE},
+                params={
+                    "style": settings.CITEPROC_STYLE,
+                    "responseformat": "html",
+                    "locale": settings.LANGUAGE_CODE
+                },
             )
             r.raise_for_status()
             self.reference = r.content.decode()

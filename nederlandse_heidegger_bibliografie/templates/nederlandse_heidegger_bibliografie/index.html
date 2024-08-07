@@ -10,13 +10,22 @@
 </style>
 {% endblock %}
 
+
 {% block body %}
+
+{% regroup bibliography by first_letter as bibliography_list %}
+
 <h1>Nederlandse Heidegger-bibliografie</h1>
 <ul>
-{% for i in bibliography %}
-<li><a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a></li>
+{% for first_letter, items in bibliography_list %}
+    <li>{{ first_letter }}</li>
+    <ul>
+        {% for i in items %}
+        <li><a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a></li>
+        {% endfor %}
+    </ul>
 {% empty %}
-<li>Geen uitgaven gevonden.</li>
+    <li>Geen uitgaven gevonden.</li>
 {% endfor %}
 </ul>
 {% endblock body %}

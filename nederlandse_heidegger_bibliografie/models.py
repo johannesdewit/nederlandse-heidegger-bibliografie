@@ -16,6 +16,10 @@ class BibEntry(models.Model):
 
     def __str__(self):
         return self.id
+
+    @property
+    def first_letter(self):
+        return self.id[0].upper()
     
     def gen_reference(self):
         if not self.reference and self.csl_json:
@@ -26,3 +30,6 @@ class BibEntry(models.Model):
             )
             r.raise_for_status()
             self.reference = r.content.decode()
+
+    class Meta:
+        ordering = ["id"]

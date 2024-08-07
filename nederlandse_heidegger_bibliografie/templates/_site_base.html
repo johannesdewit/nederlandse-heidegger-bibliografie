@@ -5,17 +5,26 @@
         <title>{% block head_title %}Nederlandse Heidegger-bibliografie{% endblock %}</title>
         {% block head %}{% endblock %}
         <style>
+            a {
+                color: rgb(75, 75, 75);
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: black;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
             .cited-by-section, .citations-section {
                 margin: auto;
                 height: 25%;
                 position: relative;
                 text-align: center;
-            }
-
-            .cited-by-section ul, .citations-section ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
             }
 
             .entry-detail {

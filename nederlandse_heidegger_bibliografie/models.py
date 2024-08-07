@@ -33,7 +33,8 @@ class BibEntry(models.Model):
                 params={
                     "style": settings.CITEPROC_STYLE,
                     "responseformat": "html",
-                    "locale": settings.LANGUAGE_CODE
+                    "locale": settings.LANGUAGE_CODE,
+                    "linkwrap": 1
                 },
             )
             r.raise_for_status()

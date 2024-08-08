@@ -1,0 +1,39 @@
+{% extends '_site_base.html' %}
+
+{% block head_title %}{{ bib_entry.title }}{% endblock head_title %}
+
+{% block body %}
+{% url 'home' as home_url %}
+{% include '_menu_button.html' with href=home_url icon="books" %}
+<div class="cit-section cited-by-section">
+{% if bib_entry.cited_by.all %}
+<h2>Geciteerd in</h2>
+<ul>
+    {% for i in bib_entry.cited_by.all %}
+    <li><a href="{% url 'entry' i.id %}">{{ i.id | safe }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<span>Dit werk wordt niet geciteerd in andere werken in deze bibliografie.</span>
+{% endif %}
+</div>
+<hr>
+<div class="entry-detail">
+<h1>{{ bib_entry.title }}</h1>
+<span class="entry-detail__index-status">{% if bib_entry.indexed %}&check; - Citaten geïndexeerd{% else %}! - Citaten niet (compleet) geïndexeerd{% endif %}</span>
+{% if bib_entry.reference %}<p>{{ bib_entry.reference | safe }}</p>{% endif %}
+</div>
+<hr>
+<div class="cit-section cits-in-work-section">
+{% if bib_entry.citations.all %}
+<h2>Citeert</h2>
+<ul>
+    {% for i in bib_entry.citations.all %}
+    <li><a href="{% url 'entry' i.id %}">{{ i.id | safe }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<span>Er worden geen werken uit deze bibliografie in dit werk geciteerd.</span>
+{% endif %}
+</div>
+{% endblock body %}

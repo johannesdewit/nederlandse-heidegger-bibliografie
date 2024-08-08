@@ -1,0 +1,24 @@
+.cit-section {
+    margin-left: 2em;
+    margin-right: 2em;
+    position: relative;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--body-color);
+
+    ul {
+        column-count: 2;
+        column-fill: balance;
+    }
+
+}
+
+
+.entry-detail {
+
+    &__index-status {
+        margin-left: 1em;
+    }
+    
+}

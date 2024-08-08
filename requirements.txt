@@ -1,12 +1,16 @@
+heidegger-theme @ https://github.com/andredelft/heidegger-theme/tarball/master
 asgiref==3.7.2
 certifi==2023.7.22
 charset-normalizer==3.3.1
-Django==4.2.6
+Django==4.*
+whitenoise==5.*
+django-compressor==4.*
+django-libsass==0.*
 idna==3.4
 python-frontmatter==1.0.0
 PyYAML==6.0.1
 requests==2.31.0
 sqlparse==0.4.4
-tqdm==4.66.1
+tqdm==4.*
 typing_extensions==4.8.0
 urllib3==2.0.7

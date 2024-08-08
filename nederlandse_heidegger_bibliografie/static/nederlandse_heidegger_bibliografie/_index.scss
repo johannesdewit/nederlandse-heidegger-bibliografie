@@ -1,0 +1,19 @@
+@import "theme";
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cited-by-section, .citations-section {
+    margin: auto;
+    height: 25%;
+    position: relative;
+    text-align: center;
+}
+

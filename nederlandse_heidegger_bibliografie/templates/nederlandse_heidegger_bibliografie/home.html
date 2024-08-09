@@ -21,7 +21,7 @@
 {% regroup bibliography by first_letter as bibliography_list %}
 
 {% for first_letter, items in bibliography_list %}
-<h3>{{ first_letter }}</h3>
+<h3 id="{{ first_letter }}">{{ first_letter }}</h3>
 <ul>
     {% for i in items %}
     <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>
@@ -36,7 +36,7 @@
 {% regroup bibliography|dictsort:"year_issued" by year_issued as bibliography_list %}
 
 {% for year_issued, items in bibliography_list %}
-<h3>{{ year_issued }}</h3>
+<h3 id="{{ year_issued }}">{{ year_issued }}</h3>
 <ul>
     {% for i in items %}
     <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>

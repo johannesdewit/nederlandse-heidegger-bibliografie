@@ -12,6 +12,8 @@
 
 
 {% block body %}
+{% include '_menu_button.html' with href="/" icon="house" %}
+
 <h1>Nederlandse Heidegger-bibliografie</h1>
 
 <h2>Gesorteerd op auteur</h2>
@@ -19,10 +21,10 @@
 {% regroup bibliography by first_letter as bibliography_list %}
 
 {% for first_letter, items in bibliography_list %}
-<h3>{{ first_letter }}</h3>
+<h3 id="{{ first_letter }}">{{ first_letter }}</h3>
 <ul>
     {% for i in items %}
-    <li><a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a></li>
+    <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>
     {% endfor %}
 </ul>
 {% empty %}
@@ -34,10 +36,10 @@
 {% regroup bibliography|dictsort:"year_issued" by year_issued as bibliography_list %}
 
 {% for year_issued, items in bibliography_list %}
-<h3>{{ year_issued }}</h3>
+<h3 id="{{ year_issued }}">{{ year_issued }}</h3>
 <ul>
     {% for i in items %}
-    <li><a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a></li>
+    <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>
     {% endfor %}
 </ul>
 {% empty %}

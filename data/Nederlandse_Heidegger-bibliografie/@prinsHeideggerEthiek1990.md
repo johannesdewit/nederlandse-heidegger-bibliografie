@@ -1,5 +1,5 @@
 ---
 citekey: prinsHeideggerEthiek1990
-geïndexeerd: false
+indexed: False
 ---
 

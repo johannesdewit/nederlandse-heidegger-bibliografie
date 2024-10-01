@@ -10,9 +10,38 @@
 </style>
 {% endblock %}
 
+
 {% block body %}
 <h1>Nederlandse Heidegger-bibliografie</h1>
-{% for i in bibliography %}
-<a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a>
+
+<h2>Gesorteerd op auteur</h2>
+
+{% regroup bibliography by first_letter as bibliography_list %}
+
+{% for first_letter, items in bibliography_list %}
+<h3>{{ first_letter }}</h3>
+<ul>
+    {% for i in items %}
+    <li><a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a></li>
+    {% endfor %}
+</ul>
+{% empty %}
+    <p>Geen uitgaven gevonden.</p>
 {% endfor %}
+
+<h2>Gesorteerd op jaartal</h2>
+
+{% regroup bibliography|dictsort:"year_issued" by year_issued as bibliography_list %}
+
+{% for year_issued, items in bibliography_list %}
+<h3>{{ year_issued }}</h3>
+<ul>
+    {% for i in items %}
+    <li><a href="{% url 'detail' i.id %}">{{ i.reference | safe }}</a></li>
+    {% endfor %}
+</ul>
+{% empty %}
+    <p>Geen uitgaven gevonden.</p>
+{% endfor %}
+
 {% endblock body %}

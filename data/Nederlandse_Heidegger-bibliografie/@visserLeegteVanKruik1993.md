@@ -1,5 +1,5 @@
 ---
 citekey: visserLeegteVanKruik1993
-geïndexeerd: false
+indexed: False
 ---
 

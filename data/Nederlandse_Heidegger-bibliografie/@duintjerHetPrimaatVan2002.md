@@ -1,6 +1,6 @@
 ---
 citekey: duintjerHetPrimaatVan2002
-geïndexeerd: true
+indexed: True
 ---
 [[@deboerVanBrentanoTot1989]]
 [[@duintjerVraagNaarHet1966]]

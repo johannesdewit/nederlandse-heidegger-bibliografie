@@ -1,4 +1,4 @@
 ---
 citekey: ijsselingHeideggerHetGeschreven1992
-geïndexeerd: true
+indexed: True
 ---

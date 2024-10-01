@@ -4,16 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "c7bbbb4af4ecede5",
+        "id": "a4c6fc4406b76af6",
         "type": "tabs",
         "children": [
           {
-            "id": "2fde2358ee8bdcd6",
+            "id": "62269ff02f729a9f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
+              "type": "markdown",
+              "state": {
+                "file": "@prinsUitVerveling2007.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "43de665e903e1634"
+          }
+        ]
+      },
+      {
+        "id": "e64e4938811b53ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "281e0e372cce776c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "@prinsUitVerveling2007.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            },
+            "group": "43de665e903e1634"
           }
         ]
       }
@@ -44,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "false",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "@prinsUitVerveling2007.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "@prinsUitVerveling2007.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +167,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "@prinsUitVerveling2007.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,34 +188,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fde2358ee8bdcd6",
+  "active": "281e0e372cce776c",
   "lastOpenFiles": [
-    "@janssenperioHoeHelderHeidegger2000.md",
-    "@bartelsGeschiedenisVanHet2002.md",
-    "@prinsHeideggersTweevoudigeVerloochening.md",
-    "@janssenperioHoeHelderHeidegger200.md",
-    "@bartelsGeschiedenisVanHet.md",
-    "@viskerVanFoucaultNaar1991.md",
-    "@vedderHeideggersDenkenVan1985.md",
-    "@vandewieleZijnswaarheidOnverborgenheidVergelijkende1964.md",
-    "@vandewieleMetafysicaHetGodsprobleem1994.md",
-    "@beerlingModerneDoodsproblematiekEen1945.md",
-    "@ijsselingHeideggerDenkenDanken1964.md",
-    "@ijsselingFilosofieHetTechnische1964.md",
-    "@kockelmansMartinHeidegggerEen1962.md",
-    "@boehmKritiekVanLevinas1963.md",
-    "@ijsselingHetZijnZijnden1966.md",
-    "@bakkerHeideggersInterpretatieVan1969.md",
-    "@delfgauwReligieuzeVraagAls1954.md",
-    "@kuypersHeideggerHetGriekse1955.md",
-    "@prinsUitVerveling2007.md",
-    "@visserLeegteVanKruik1993.md",
-    "@devisscherWonenNabijheidVan1991.md",
-    "@prinsICTZijnsverlatenTijden2002.md",
-    "@prinsHeideggersTweevoudigeVerloochening1990.md",
-    "@prinsHeideggerEthiek1990.md",
+    "@beerlingModerneDoodsproblematiekEen1946.md",
     "@prinsHeideggersDwaling1988.md",
-    "@norberg-schulzArchitectuurAlsVergaring1991.md",
+    "@arendtBrievenAndereGetuigenissen2004.md",
+    "@bakkerGeschiedenisVanHet1974.md",
+    "@spernaweilandMytheVanEen1957.md",
+    "@vandewieleResDingBijdrage1962.md",
+    "@schuwerZijnsleerVanMartin1951.md",
+    "@vandewieleMetafysicaHetGodsprobleem1994.md",
+    "@vanpeursenPhilosophieVanMartin1951.md",
+    "@deschutterHeideggersFilosofieVan1988.md",
+    "@blokActualiteitTijdSein2007.md",
+    "@beerlingVanNietzscheTot1977.md",
+    "@alerTaalBijMartin1961.md",
+    "@beerlingExistentiephilosophieVanHeidegger1935.md",
+    "@duintjerVraagNaarHet1966.md",
+    "@duintjerHetPrimaatVan2002.md",
+    "@bakkerHeideggersInterpretatieVan1969.md",
+    "@bartelsGeschiedenisVanHet2002.md",
+    "@graaffHetSchuldprobleemExistentiephilosophie1951.md",
+    "@stompsPhilosophieVanMartin1938.md",
+    "@ijsselingHeideggerDenkenDanken1964.md",
+    "@vedderHeideggersLaatsteGod1991.md",
+    "@zuidemaPlaatsTheologieHet1955.md",
+    "@delfgauwReligieuzeVraagAls1954.md",
+    "@vandewieleFenomenologieMetafysica1967.md",
+    "@bouckaertHetZijnsdenkenEthiek1970.md",
     "Untitled.canvas"
   ]
 }

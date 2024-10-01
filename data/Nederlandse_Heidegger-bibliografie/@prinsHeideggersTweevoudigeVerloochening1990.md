@@ -1,5 +1,5 @@
 ---
 citekey: prinsHeideggersTweevoudigeVerloochening1990
-geïndexeerd: false
+indexed: False
 ---
 

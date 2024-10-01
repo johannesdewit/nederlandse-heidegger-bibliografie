@@ -1,6 +1,6 @@
 ---
 citekey: ijsselingHetZijnZijnden1966
-geïndexeerd: true
+indexed: True
 ---
 [[@ijsselingHeideggerDenkenDanken1964]]
 

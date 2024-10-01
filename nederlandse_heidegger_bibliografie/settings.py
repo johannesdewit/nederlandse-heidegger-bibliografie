@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "nl-NL"
 
 TIME_ZONE = "UTC"
 
@@ -126,4 +126,4 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CITEPROC_ENDPOINT = "https://citeproc.delve.nu"
-CITEPROC_STYLE = "mhra"
+CITEPROC_STYLE = "chicago-author-date"

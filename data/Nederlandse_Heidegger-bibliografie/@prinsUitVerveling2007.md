@@ -1,6 +1,6 @@
 ---
 citekey: prinsUitVerveling2007
-geïndexeerd: true
+indexed: True
 ---
 [[@alerTaalBijMartin1961]]
 [[@heideggerWatMetafysica1970]]

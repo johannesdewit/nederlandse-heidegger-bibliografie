@@ -1,6 +1,6 @@
 ---
 citekey: ijsselingFilosofiePsychoanalyseEnige1969
-geïndexeerd: true
+indexed: True
 ---
 [[@ijsselingHeideggerMarx1966]]
 [[@ijsselingHetZijnZijnden1966]]

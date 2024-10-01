@@ -1,5 +1,5 @@
 ---
 citekey: boehmKritiekVanLevinas1963
-geïndexeerd: false
+indexed: True
 ---
 

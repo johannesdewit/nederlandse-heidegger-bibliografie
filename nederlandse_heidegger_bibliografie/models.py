@@ -13,6 +13,7 @@ class BibEntry(models.Model):
     reference = models.TextField(max_length=1024, null=True)
     indexed = models.BooleanField(default=False)
     citations = models.ManyToManyField("self", symmetrical= False, related_name="cited_by")
+    # TODO add url field and seperate URLs from the reference.
 
     def __str__(self):
         return self.id

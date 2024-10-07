@@ -111,7 +111,7 @@ class Command(BaseCommand):
                         f"Skipping {bib_id} reference generation because of HTTP error: {e}"
                     )
             else:
-                bib_obj.reference = "—"
+                bib_obj.reference = bib_id
 
             bib_objs.append(bib_obj)
 

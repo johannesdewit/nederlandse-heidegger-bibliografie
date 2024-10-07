@@ -22,7 +22,7 @@
 
 <h2>Gesorteerd op jaartal</h2>
 
-{% regroup bibliography|dictsort:"year_issued" by year_issued as bibliography_list %}
+{% regroup bibliography|dictsortreversed:"year_issued" by year_issued as bibliography_list %}
 
 {% for year_issued, items in bibliography_list %}
 <h3 id="{{ year_issued }}">{{ year_issued }}</h3>

@@ -4,7 +4,6 @@ hr {
 
 .entry-container {
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
     min-height: 100vh;
 }
 
@@ -27,16 +26,21 @@ hr {
 }
 
 .cited-by-section {
-    scroll-snap-align: start;
-    min-height: 30vh;
     display: flex;
     flex-direction: column-reverse;
 
     &__header {
-        align-self: center;
-        text-align: center;
+        height: 10vh;
         margin-bottom: 0;
         opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 10vh;
+        margin-bottom: 0;
+        opacity: 0.8;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 
     &__header h2 {
@@ -45,15 +49,21 @@ hr {
 }
 
 .cits-in-work-section {
-    scroll-snap-align: end;
-    min-height: 30vh;
     display: flex;
     flex-direction: column;
 
     &__header {
-        align-self: center;
-        text-align: center;
+        height: 10vh;
+        margin-bottom: 0;
         opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 10vh;
+        margin-bottom: 0;
+        opacity: 0.8;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 
     &__header h2 {
@@ -68,6 +78,12 @@ hr {
 }
 
 .entry-detail {
-    scroll-snap-align: center;
-    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    margin-block: 5vh;
+    border: 1px solid var(--body-color);
+    border-left-width: 0;
+    border-right-width: 0;
 }

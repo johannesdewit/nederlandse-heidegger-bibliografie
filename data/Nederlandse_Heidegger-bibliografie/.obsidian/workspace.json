@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@prinsUitVerveling2007.md",
+                "file": "@alerTaalBijMartin1961.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "@prinsUitVerveling2007.md",
+                "file": "@alerTaalBijMartin1961.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@prinsUitVerveling2007.md",
+                "file": "@alerTaalBijMartin1961.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@prinsUitVerveling2007.md",
+                "file": "@alerTaalBijMartin1961.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@prinsUitVerveling2007.md"
+                "file": "@alerTaalBijMartin1961.md"
               }
             }
           }
@@ -176,21 +176,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Open snel wisselen": false,
+      "graph:Open grafiek weergave": false,
+      "canvas:Nieuw doek aanmaken": false,
+      "daily-notes:Open de notitie van vandaag": false,
+      "templates:Sjabloon invoegen": false,
+      "command-palette:Open opdrachtenpaneel": false
     }
   },
-  "active": "281e0e372cce776c",
+  "active": "62269ff02f729a9f",
   "lastOpenFiles": [
+    "@denkerOmdatFilosoferenLeven1997.md",
+    "@blokActualiteitTijdSein2007.md",
     "@beerlingModerneDoodsproblematiekEen1946.md",
+    "@prinsUitVerveling2007.md",
     "@prinsHeideggersDwaling1988.md",
     "@arendtBrievenAndereGetuigenissen2004.md",
     "@bakkerGeschiedenisVanHet1974.md",
@@ -200,7 +204,6 @@
     "@vandewieleMetafysicaHetGodsprobleem1994.md",
     "@vanpeursenPhilosophieVanMartin1951.md",
     "@deschutterHeideggersFilosofieVan1988.md",
-    "@blokActualiteitTijdSein2007.md",
     "@beerlingVanNietzscheTot1977.md",
     "@alerTaalBijMartin1961.md",
     "@beerlingExistentiephilosophieVanHeidegger1935.md",
@@ -214,8 +217,6 @@
     "@vedderHeideggersLaatsteGod1991.md",
     "@zuidemaPlaatsTheologieHet1955.md",
     "@delfgauwReligieuzeVraagAls1954.md",
-    "@vandewieleFenomenologieMetafysica1967.md",
-    "@bouckaertHetZijnsdenkenEthiek1970.md",
     "Untitled.canvas"
   ]
 }

@@ -6,20 +6,18 @@
 {% url 'home' as home_url %}
 {% include '_menu_button.html' with href=home_url icon="books" %}
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const my_element = document.getElementById("entry-detail");
+document.addEventListener('DOMContentLoaded', function() {
+    const element = document.getElementById("cits-in-work-header");
 
-        my_element.scrollIntoView({
-          behavior: "instant",
-          block: "center",
-        });
-
-    }, false);
-
+    element.scrollIntoView({
+        behavior: "instant",
+        block: "end",
+    });
+    
+}, false);
 </script>
 <div class="entry-container">
     <div id="cited-by-section" class="cit-section cited-by-section">
-        {% if bib_entry.cited_by.all %}
         <div id="cited-by-header" class="cited-by-section__header">
             <i class="icon-caret-up"></i>
             <h2 class="h3 icon-arrow-square-in">Geciteerd in</h2>
@@ -27,44 +25,38 @@
         <ul class="cited-by-section__list">
             {% for i in bib_entry.cited_by.all %}
             <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>
+            {% empty %}
+            <li>Dit werk wordt niet geciteerd in andere werken in deze bibliografie.</li>
             {% endfor %}
         </ul>
-        {% else %}
-        <span>Dit werk wordt niet geciteerd in andere werken in deze bibliografie.</span>
-        {% endif %}
     </div>
-<hr>
+
     <div id="entry-detail" class="entry-detail">
         <h1>{{ bib_entry.title }}</h1>
-        {% if bib_entry.reference %}<p>{{ bib_entry.reference | safe }}</p>{% endif %}
+        {% if bib_entry.reference %}{{ bib_entry.reference | safe }}{% endif %}
     </div>
-<hr>
+    
     <div id="cits-in-work-section" class="cit-section cits-in-work-section">
-        {% if bib_entry.citations.all%}
         <div id="cits-in-work-header" class="cits-in-work-section__header">
             <h2 class="h3 icon-arrow-square-out">Citeert</h2>
             <i class="icon-caret-down"></i>
         </div>
-        {% if not bib_entry.indexed %}
         <span class="cit-section__index-status">
+        {% if not bib_entry.indexed %}
             ! - Referenties niet compleet geïndexeerd
-        </span>
+        {% else %}
+            &check; - Citaten geïndexeerd<br>
         {% endif %}
+        </span>
         <ul>
             {% for i in bib_entry.citations.all %}
             <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>
+            {% empty %}
+            <li class="cit-section__index-status">
+                Er worden geen werken uit deze bibliografie in dit werk geciteerd.
+            </li>
             {% endfor %}
         </ul>
-        {% else %}
-        <span class="cit-section__index-status">
-            {% if bib_entry.indexed %}
-            &check; - Citaten geïndexeerd<br>
-            Er worden geen werken uit deze bibliografie in dit werk geciteerd.
-            {% else %}
-            ! - Referenties niet geïndexeerd
-            {% endif %}
-        </span>
-        {% endif %}
     </div>
 </div>
 {% endblock body %}

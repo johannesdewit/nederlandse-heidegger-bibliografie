@@ -33,9 +33,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <div id="entry-detail" class="entry-detail">
         <h1>{{ bib_entry.title }}</h1>
-        {% for author in bib_entry.author.all %}
-            <a href="{% url 'author' author %}">{{ author.name }}</a>
-        {% endfor %}
+        {% if bib_entry.author.all %}
+        <div class="entry-detail__author">
+            {% for author in bib_entry.author.all %}
+            <a class="badge badge--secondary badge--large icon-user" href="{% url 'author' author.id %}">
+                {{ author.name }}
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
         {% if bib_entry.reference %}{{ bib_entry.reference | safe }}{% endif %}
     </div>
     

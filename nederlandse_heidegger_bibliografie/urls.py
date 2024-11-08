@@ -21,5 +21,6 @@ from nederlandse_heidegger_bibliografie import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home, name="home"),
-    path("<str:bib_id>/", views.entry, name="entry")
+    path("<str:bib_id>/", views.entry, name="entry"),
+    path("auteur/<str:author_id>/", views.author, name="author")
 ]

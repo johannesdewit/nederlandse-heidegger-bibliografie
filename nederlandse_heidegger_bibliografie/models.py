@@ -4,6 +4,20 @@ import datetime
 from django.db import models
 from django.conf import settings
 
+class Author(models.Model):
+    id = models.CharField(max_length=256, unique=True, primary_key=True)
+    csl_json = models.JSONField()
+
+    def __str__(self):
+        return self.id
+    
+    @property
+    def name(self):
+        #TODO: Change to parse the name correctly.
+        return self.id
+
+    class Meta:
+        ordering = ["id"]
 
 class BibEntry(models.Model):
     # TODO Regex id to match BetterBibtex id's
@@ -12,7 +26,8 @@ class BibEntry(models.Model):
     year_issued = models.PositiveSmallIntegerField(null=True)
     reference = models.TextField(max_length=1024, null=True)
     indexed = models.BooleanField(default=False)
-    citations = models.ManyToManyField("self", symmetrical= False, related_name="cited_by")
+    citations = models.ManyToManyField("self", symmetrical=False, related_name="cited_by")
+    author = models.ManyToManyField(Author, related_name="works")
     # TODO add url field and seperate URLs from the reference.
 
     def __str__(self):

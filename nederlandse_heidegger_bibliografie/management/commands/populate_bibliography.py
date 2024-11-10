@@ -108,14 +108,15 @@ class Command(BaseCommand):
             year_issued = i['issued']['date-parts'][0][0]
             try: 
                 author_json = i['author']
-                author_id = "".join(get_all_values(author_json))
+                for author in author_json:
+                    author_id = "".join(get_all_values(author))
 
-                author_obj = Author(
-                    id=author_id,
-                    csl_json=author_json
-                )
+                    author_obj = Author(
+                        id=author_id,
+                        csl_json=author
+                    )
 
-                author_objs.add(author_obj) 
+                    author_objs.add(author_obj) 
 
             except KeyError:
                 pass
@@ -154,14 +155,15 @@ class Command(BaseCommand):
             except KeyError:
                 author_json = ""
 
-            author_id = "".join(get_all_values(author_json))
-            try:
-                author_obj = Author.objects.get(id=author_id)
-                bib_obj.author.add(author_obj)
-            except ValueError as e:
-                print(f"{bib_obj.id}: {e}")
-            except ObjectDoesNotExist:
-                print(f"{bib_obj.id}: No author match found for '{author_id}'")
+            for author in author_json:
+                author_id = "".join(get_all_values(author))
+                try:
+                    author_obj = Author.objects.get(id=author_id)
+                    bib_obj.author.add(author_obj)
+                except ValueError as e:
+                    print(f"{bib_obj.id}: {e}")
+                except ObjectDoesNotExist:
+                    print(f"{bib_obj.id}: No author match found for '{author_id}'")
 
 
         # Populate citations

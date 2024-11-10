@@ -13,7 +13,7 @@ class Author(models.Model):
 
     @property
     def given_name(self) -> str:
-        first_name = self.csl_json[0]["given"]
+        first_name = self.csl_json["given"]
 
         return first_name
 
@@ -22,11 +22,11 @@ class Author(models.Model):
         family_name_affix = None
 
         try:
-            family_name_affix = self.csl_json[0]["non-dropping-particle"]
+            family_name_affix = self.csl_json["non-dropping-particle"]
         except KeyError:
             pass
         try:            
-            family_name_affix = self.csl_json[0]["dropping-particle"]
+            family_name_affix = self.csl_json["dropping-particle"]
         except KeyError:
             pass
 
@@ -34,7 +34,7 @@ class Author(models.Model):
 
     @property
     def family_name(self) -> str:
-        family_name = self.csl_json[0]["family"]
+        family_name = self.csl_json["family"]
 
         return family_name
 

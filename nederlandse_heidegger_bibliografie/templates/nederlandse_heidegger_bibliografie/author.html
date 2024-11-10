@@ -1,16 +1,16 @@
 {% extends '_site_base.html' %}
 
+{% block head_title %}{{ author.full_name }} - Nederlandse Heidegger-bibliografie{% endblock head_title %}
+
 {% block body %}
 {% include '_menu_button.html' with href="/" icon="house" %}
 
-<h2>{{ author.name}} </h2>
-
-<h3>Gesorteerd op jaartal</h3>
+<h2>{{ author.full_name}} </h2>
 
 {% regroup author.works.all|dictsortreversed:"year_issued" by year_issued as bibliography_list %}
 
 {% for year_issued, items in bibliography_list %}
-<h4 id="{{ year_issued }}">{{ year_issued }}</h4>
+<h3 id="{{ year_issued }}">{{ year_issued }}</h3>
 <ul>
     {% for i in items %}
     <li><a href="{% url 'entry' i.id %}">{{ i.reference | safe }}</a></li>

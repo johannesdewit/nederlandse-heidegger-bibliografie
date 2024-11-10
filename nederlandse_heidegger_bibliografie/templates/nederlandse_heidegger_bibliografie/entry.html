@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="entry-detail__author">
             {% for author in bib_entry.author.all %}
             <a class="badge badge--secondary badge--large icon-user" href="{% url 'author' author.id %}">
-                {{ author.name }}
+                {{ author.full_name }}
             </a>
             {% endfor %}
         </div>

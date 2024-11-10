@@ -9,12 +9,45 @@ class Author(models.Model):
     csl_json = models.JSONField()
 
     def __str__(self):
-        return self.id
-    
+        return self.full_name
+
     @property
-    def name(self):
-        #TODO: Change to parse the name correctly.
-        return self.id
+    def given_name(self) -> str:
+        first_name = self.csl_json[0]["given"]
+
+        return first_name
+
+    @property
+    def family_name_affix(self) -> str:
+        family_name_affix = None
+
+        try:
+            family_name_affix = self.csl_json[0]["non-dropping-particle"]
+        except KeyError:
+            pass
+        try:            
+            family_name_affix = self.csl_json[0]["dropping-particle"]
+        except KeyError:
+            pass
+
+        return family_name_affix
+
+    @property
+    def family_name(self) -> str:
+        family_name = self.csl_json[0]["family"]
+
+        return family_name
+
+    @property
+    def full_name(self) -> str:
+        if self.family_name_affix:
+            return f"{self.given_name} {self.family_name_affix} {self.family_name}"
+        else:
+            return f"{self.given_name} {self.family_name}"
+        
+    @property
+    def first_letter(self):
+        return self.family_name[0].upper()
 
     class Meta:
         ordering = ["id"]
@@ -28,7 +61,7 @@ class BibEntry(models.Model):
     indexed = models.BooleanField(default=False)
     citations = models.ManyToManyField("self", symmetrical=False, related_name="cited_by")
     author = models.ManyToManyField(Author, related_name="works")
-    # TODO add url field and seperate URLs from the reference.
+    # TODO: add url field and seperate URLs from the reference.
 
     def __str__(self):
         return self.id

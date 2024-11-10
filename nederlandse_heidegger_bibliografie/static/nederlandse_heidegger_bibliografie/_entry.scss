@@ -86,4 +86,10 @@ hr {
     border: 1px solid var(--body-color);
     border-left-width: 0;
     border-right-width: 0;
+
+
+  &__author {
+    margin: -0.5rem 0 2rem;
+  }
+
 }

@@ -1,6 +1,6 @@
 {% extends '_site_base.html' %}
 
-{% block head_title %}{{ bib_entry.title }}{% endblock head_title %}
+{% block head_title %}{{ bib_entry.title }} - Nederlandse Heidegger-bibliografie{% endblock head_title %}
 
 {% block body %}
 {% url 'home' as home_url %}
@@ -33,6 +33,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <div id="entry-detail" class="entry-detail">
         <h1>{{ bib_entry.title }}</h1>
+        {% if bib_entry.author.all %}
+        <div class="entry-detail__author">
+            {% for author in bib_entry.author.all %}
+            <a class="badge badge--secondary badge--large icon-user" href="{% url 'author' author.id %}">
+                {{ author.full_name }}
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
         {% if bib_entry.reference %}{{ bib_entry.reference | safe }}{% endif %}
     </div>
     

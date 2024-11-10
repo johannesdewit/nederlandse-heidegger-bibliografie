@@ -6,9 +6,22 @@ import json
 import frontmatter
 
 from django.core.management.base import BaseCommand
+from django.core.exceptions import ObjectDoesNotExist
 from django.conf import settings
 
-from nederlandse_heidegger_bibliografie.models import BibEntry
+from nederlandse_heidegger_bibliografie.models import Author, BibEntry
+
+from typing import Iterable
+
+def get_all_values(d):
+    if isinstance(d, dict):
+        for v in d.values():
+            yield from get_all_values(v)
+    elif isinstance(d, Iterable) and not isinstance(d, str): # or list, set, ... only
+        for v in d:
+            yield from get_all_values(v)
+    else:
+        yield d 
 
 
 class Command(BaseCommand):
@@ -46,7 +59,7 @@ class Command(BaseCommand):
             perform_external_calls = not settings.DEBUG
 
         # Clean DB
-        for Model in [BibEntry]:
+        for Model in [Author, BibEntry]:
             self._flush_table(Model)
 
         # Load citation data
@@ -87,21 +100,38 @@ class Command(BaseCommand):
             bib_data = json.load(f)
 
         # Populate bib
-        bib_objs = []
+        bib_objs = set()
+        author_objs = set()
+
         for i in tqdm(bib_data, desc="Parsing data (and generating references)"):
             bib_id = i['id']
             year_issued = i['issued']['date-parts'][0][0]
+            try: 
+                author_json = i['author']
+                for author in author_json:
+                    author_id = "".join(get_all_values(author))
+
+                    author_obj = Author(
+                        id=author_id,
+                        csl_json=author
+                    )
+
+                    author_objs.add(author_obj) 
+
+            except KeyError:
+                pass
             
             try: 
                 indexed = citation_data_by_id[bib_id]['indexed']
             except:
                 indexed = False
+
             bib_obj = BibEntry(
                 id=bib_id,
                 csl_json=i,
                 year_issued=year_issued,
-                indexed=indexed
-                )
+                indexed=indexed,
+            )
 
             if perform_external_calls:
                 try:
@@ -113,9 +143,28 @@ class Command(BaseCommand):
             else:
                 bib_obj.reference = bib_id
 
-            bib_objs.append(bib_obj)
+            bib_objs.add(bib_obj)
 
+        Author.objects.bulk_create(tqdm(author_objs, desc="Populating authors"))
         BibEntry.objects.bulk_create(tqdm(bib_objs, desc="Populating bibliography"))
+
+        # Populate Entry-Author relation.
+        for bib_obj in tqdm(BibEntry.objects.all(), desc="Adding author relations"):
+            try:
+                author_json = bib_obj.csl_json["author"]
+            except KeyError:
+                author_json = ""
+
+            for author in author_json:
+                author_id = "".join(get_all_values(author))
+                try:
+                    author_obj = Author.objects.get(id=author_id)
+                    bib_obj.author.add(author_obj)
+                except ValueError as e:
+                    print(f"{bib_obj.id}: {e}")
+                except ObjectDoesNotExist:
+                    print(f"{bib_obj.id}: No author match found for '{author_id}'")
+
 
         # Populate citations
         for bib_obj in tqdm(BibEntry.objects.all(), desc="Adding citation relations"):

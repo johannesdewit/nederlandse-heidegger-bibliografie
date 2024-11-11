@@ -34,7 +34,7 @@ Ook vind u hier een Django-project waarmee er een webpagina gegenereerd kan word
 
 - [x] Django: Integreer (https://github.com/andredelft/heidegger-theme)
 - [ ] Django: Voeg parent-child-relaties tussen werken toe.
-- [ ] Django: Voeg auteur-structuur toe om door werken te kunnen bladeren. Zie [#9](https://github.com/johannesdewit/nederlandse-heidegger-bibliografie/issues/9).
-- [ ] Django: Pas sorteren van de index-pagina aan.
+- [x] Django: Voeg auteur-structuur toe om door werken te kunnen bladeren. Zie [#9](https://github.com/johannesdewit/nederlandse-heidegger-bibliografie/issues/9).
+- [ ] Django: Pas sorteren van de index-pagina aan. Zie [#13](https://github.com/johannesdewit/nederlandse-heidegger-bibliografie/issues/13).
 - [ ] Django: Splits de URLs van de referenties en voeg als aparte knop toe. Zie [#10](https://github.com/johannesdewit/nederlandse-heidegger-bibliografie/issues/10)
 - [ ] Bibliografie: Indexeer bibliografieën van de reeds toegevoegde werken.

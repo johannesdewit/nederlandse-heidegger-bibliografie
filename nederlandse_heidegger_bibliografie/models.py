@@ -7,36 +7,12 @@ from django.conf import settings
 class Author(models.Model):
     id = models.CharField(max_length=256, unique=True, primary_key=True)
     csl_json = models.JSONField()
+    family_name = models.CharField(max_length=64, blank=True)
+    family_name_affix = models.CharField(max_length=16, blank=True, null=True)
+    given_name = models.CharField(max_length=64, blank=True)
 
     def __str__(self):
         return self.full_name
-
-    @property
-    def given_name(self) -> str:
-        first_name = self.csl_json["given"]
-
-        return first_name
-
-    @property
-    def family_name_affix(self) -> str:
-        family_name_affix = None
-
-        try:
-            family_name_affix = self.csl_json["non-dropping-particle"]
-        except KeyError:
-            pass
-        try:            
-            family_name_affix = self.csl_json["dropping-particle"]
-        except KeyError:
-            pass
-
-        return family_name_affix
-
-    @property
-    def family_name(self) -> str:
-        family_name = self.csl_json["family"]
-
-        return family_name
 
     @property
     def full_name(self) -> str:
@@ -46,11 +22,12 @@ class Author(models.Model):
             return f"{self.given_name} {self.family_name}"
         
     @property
-    def first_letter(self):
+    def first_letter(self) -> str:
         return self.family_name[0].upper()
 
     class Meta:
-        ordering = ["id"]
+        ordering = ["family_name", "given_name"]
+        verbose_name = "author"
 
 class BibEntry(models.Model):
     # TODO Regex id to match BetterBibtex id's
@@ -65,10 +42,14 @@ class BibEntry(models.Model):
 
     def __str__(self):
         return self.id
-
+    
     @property
     def first_letter(self):
-        return self.id[0].upper()
+        try:
+            first_letter = self.author.first().first_letter
+        except AttributeError:
+            first_letter = '#'
+        return first_letter
 
     @property
     def title(self):
@@ -90,4 +71,5 @@ class BibEntry(models.Model):
             self.reference = r.content.decode()
 
     class Meta:
-        ordering = ["id"]
+        ordering = ["author__family_name", "author__given_name", "-year_issued", "-id"]
+        verbose_name = "bibliography entry"

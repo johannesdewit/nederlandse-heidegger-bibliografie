@@ -8,7 +8,8 @@ def entry(request, bib_id):
     return render(request, "nederlandse_heidegger_bibliografie/entry.html", context)
 
 def home(request):
-    bibliography = BibEntry.objects.order_by("id")
+    #TODO: Filter out duplicates returned by this query.
+    bibliography = BibEntry.objects.all()
     context = {"bibliography": bibliography}
     return render(request, "nederlandse_heidegger_bibliografie/home.html", context)
 

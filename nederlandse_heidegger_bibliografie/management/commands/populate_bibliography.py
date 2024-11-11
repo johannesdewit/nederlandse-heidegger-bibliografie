@@ -110,10 +110,26 @@ class Command(BaseCommand):
                 author_json = i['author']
                 for author in author_json:
                     author_id = "".join(get_all_values(author))
+                    family_name = author["family"]
+                    
+                    family_name_affix = None
+                    try:
+                        family_name_affix = author["non-dropping-particle"]
+                    except KeyError:
+                        pass
+                    try:            
+                        family_name_affix = author["dropping-particle"]
+                    except KeyError:
+                        pass
+
+                    given_name = author["given"]
 
                     author_obj = Author(
                         id=author_id,
-                        csl_json=author
+                        csl_json=author,
+                        family_name=family_name,
+                        family_name_affix=family_name_affix,
+                        given_name=given_name,
                     )
 
                     author_objs.add(author_obj) 

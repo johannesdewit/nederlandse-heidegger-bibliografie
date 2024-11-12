@@ -32,12 +32,15 @@ class Author(models.Model):
 class BibEntry(models.Model):
     # TODO Regex id to match BetterBibtex id's
     id = models.CharField(max_length=256, unique=True, primary_key=True)
+    sort_key = models.SlugField(max_length=64, unique=True, null=True)
     csl_json = models.JSONField()
     year_issued = models.PositiveSmallIntegerField(null=True)
     reference = models.TextField(max_length=1024, null=True)
     indexed = models.BooleanField(default=False)
     citations = models.ManyToManyField("self", symmetrical=False, related_name="cited_by")
     author = models.ManyToManyField(Author, related_name="works")
+    editor = models.ManyToManyField(Author, related_name="edited")
+    title = models.CharField(max_length=256, null=True)
     # TODO: add url field and seperate URLs from the reference.
 
     def __str__(self):
@@ -45,15 +48,8 @@ class BibEntry(models.Model):
     
     @property
     def first_letter(self):
-        try:
-            first_letter = self.author.first().first_letter
-        except AttributeError:
-            first_letter = '#'
+        first_letter = self.sort_key[0].upper()
         return first_letter
-
-    @property
-    def title(self):
-        return self.csl_json.get("title-short") or self.csl_json.get("title") or ""
     
     def gen_reference(self):
         if not self.reference and self.csl_json:
@@ -71,5 +67,5 @@ class BibEntry(models.Model):
             self.reference = r.content.decode()
 
     class Meta:
-        ordering = ["author__family_name", "author__given_name", "-year_issued", "-id"]
+        ordering = ["sort_key"]
         verbose_name = "bibliography entry"

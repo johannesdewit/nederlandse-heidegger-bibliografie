@@ -8,6 +8,7 @@ import frontmatter
 from django.core.management.base import BaseCommand
 from django.core.exceptions import ObjectDoesNotExist
 from django.conf import settings
+from django.db.utils import IntegrityError
 
 from nederlandse_heidegger_bibliografie.models import Author, BibEntry
 
@@ -106,36 +107,46 @@ class Command(BaseCommand):
         for i in tqdm(bib_data, desc="Parsing data (and generating references)"):
             bib_id = i['id']
             year_issued = i['issued']['date-parts'][0][0]
+            title= i['title']
+            author_json = editor_json = director_json = []
             try: 
                 author_json = i['author']
-                for author in author_json:
-                    author_id = "".join(get_all_values(author))
-                    family_name = author["family"]
-                    
-                    family_name_affix = None
-                    try:
-                        family_name_affix = author["non-dropping-particle"]
-                    except KeyError:
-                        pass
-                    try:            
-                        family_name_affix = author["dropping-particle"]
-                    except KeyError:
-                        pass
-
-                    given_name = author["given"]
-
-                    author_obj = Author(
-                        id=author_id,
-                        csl_json=author,
-                        family_name=family_name,
-                        family_name_affix=family_name_affix,
-                        given_name=given_name,
-                    )
-
-                    author_objs.add(author_obj) 
-
             except KeyError:
                 pass
+            try: 
+                editor_json = i['editor']
+            except KeyError:
+                pass
+            try:
+                director_json = i['director']
+            except KeyError:
+                pass
+
+            for author in author_json + editor_json + director_json:
+                author_id = "".join(get_all_values(author))
+                family_name = author["family"]
+                
+                family_name_affix = None
+                try:
+                    family_name_affix = author["non-dropping-particle"]
+                except KeyError:
+                    pass
+                try:            
+                    family_name_affix = author["dropping-particle"]
+                except KeyError:
+                    pass
+
+                given_name = author["given"]
+
+                author_obj = Author(
+                    id=author_id,
+                    csl_json=author,
+                    family_name=family_name,
+                    family_name_affix=family_name_affix,
+                    given_name=given_name,
+                )
+
+                author_objs.add(author_obj) 
             
             try: 
                 indexed = citation_data_by_id[bib_id]['indexed']
@@ -145,6 +156,7 @@ class Command(BaseCommand):
             bib_obj = BibEntry(
                 id=bib_id,
                 csl_json=i,
+                title=title,
                 year_issued=year_issued,
                 indexed=indexed,
             )
@@ -164,25 +176,58 @@ class Command(BaseCommand):
         Author.objects.bulk_create(tqdm(author_objs, desc="Populating authors"))
         BibEntry.objects.bulk_create(tqdm(bib_objs, desc="Populating bibliography"))
 
-        # Populate Entry-Author relation.
-        for bib_obj in tqdm(BibEntry.objects.all(), desc="Adding author relations"):
+        # Populate Entry-Author and Etry-Editor relations.
+        for bib_obj in tqdm(BibEntry.objects.all(), desc="Adding author and editor relations"):
             try:
                 author_json = bib_obj.csl_json["author"]
             except KeyError:
-                author_json = ""
+                author_json = None
 
-            for author in author_json:
-                author_id = "".join(get_all_values(author))
-                try:
-                    author_obj = Author.objects.get(id=author_id)
-                    bib_obj.author.add(author_obj)
-                except ValueError as e:
-                    print(f"{bib_obj.id}: {e}")
-                except ObjectDoesNotExist:
-                    print(f"{bib_obj.id}: No author match found for '{author_id}'")
+            if author_json != None:
+                for author in author_json:
+                    author_id = "".join(get_all_values(author))
+                    try:
+                        author_obj = Author.objects.get(id=author_id)
+                        bib_obj.author.add(author_obj)
+                    except ValueError as e:
+                        print(f"{bib_obj.id}: {e}")
+                    except ObjectDoesNotExist:
+                        print(f"{bib_obj.id}: No author match found for '{author_id}'")
+                
+            try:
+                editor_json = bib_obj.csl_json["editor"]
+            except KeyError:
+                editor_json = None
+
+            if editor_json != None:
+                for editor in editor_json:
+                    editor_id = "".join(get_all_values(editor))
+                    try:
+                        editor_obj = Author.objects.get(id=editor_id)
+                        bib_obj.editor.add(editor_obj)
+                    except ValueError as e:
+                        print(f"{bib_obj.id}: {e}")
+                    except ObjectDoesNotExist:
+                        print(f"{bib_obj.id}: No editor match found for '{editor_id}'")
+
+            # Generate sort_keys
+            sort_key = bib_obj.id
+            if bib_obj.author.exists():
+                sort_key = bib_obj.author.first().family_name + bib_obj.author.first().given_name + str(bib_obj.year_issued) + ''.join(bib_obj.title.split()[:3])
+            elif bib_obj.editor.exists():
+                sort_key = bib_obj.editor.first().family_name + bib_obj.editor.first().given_name + str(bib_obj.year_issued) + ''.join(bib_obj.title.split()[:3])
+            try:
+                bib_obj.sort_key = sort_key
+                bib_obj.save()
+            except IntegrityError:
+                print(f"{bib_obj.id}Sort_key not unique, sort_key was populated with id.")
+                bib_obj.sort_key = bib_obj.id
+                bib_obj.save()
+                pass
 
 
-        # Populate citations
+
+        # Populate citations and short-keys
         for bib_obj in tqdm(BibEntry.objects.all(), desc="Adding citation relations"):
             bib_id = bib_obj.id
 
